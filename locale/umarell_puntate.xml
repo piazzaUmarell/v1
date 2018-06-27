@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <rss version="2.0"
+    xmlns:atom='http://www.w3.org/2005/Atom'
+    xmlns:itunes='http://www.itunes.com/dtds/podcast-1.0.dtd'
+    xmlns:content='http://purl.org/rss/1.0/modules/content/'
+    xmlns:piazza="http://piazzaumarell.it"
+    xml:lang='it-IT'>
+  	<channel>
+      <atom:link href="http://piazzaumarell.it/feeds/umarell_puntate.xml" rel="self" type="application/rss+xml" />
+      <itunes:explicit>NO</itunes:explicit>
+  		<title>Piazza Umarell</title>
+  		<link>http://piazzaumarell.it</link>
+  		<language>it-it</language>
+  		<itunes:subtitle>Il podcast per vecchi pezzi di Nerd</itunes:subtitle>
+  		<itunes:author>Francesco&amp;Geralt</itunes:author>
+  		<itunes:summary>Due umarell si incontrano al bar per parlare di tutto e non concludere mai nulla. Ai microfoni Geralt e Francesco si cimentano in discorsi nerd che vanno dalla matematica all'esplorazione spaziale passando per videogiochi e fumetti con ( si spera ) tanti ospiti pronti a discuterne con loro.</itunes:summary>
+  		<itunes:owner>
+  		  <itunes:name>Francesco Lisi</itunes:name>
+  		  <itunes:email>sedialibera@piazzaumarell.it</itunes:email>
+  		</itunes:owner>
+  		<itunes:image href="http://piazzaumarell.it/logo.jpg"/>
+  		<itunes:category text="Games &amp; Hobbies"/>
+      <description>
+        Due umarell si incontrano al bar per parlare di tutto e non concludere mai nulla. Ai microfoni Geralt e Francesco si cimentano in discorsi nerd che vanno dalla matematica all'esplorazione spaziale passando per videogiochi e fumetti con ( si spera ) tanti ospiti pronti a discuterne con loro.
+      </description>
+  		  <item>
+    			<title>Piazza Umarell #0 - Latte e menta</title>
+          <link>http://piazzaumarell.it</link>
+    			<itunes:author>Francesco&amp;Geralt</itunes:author>
+    			<itunes:subtitle>Si parte!</itunes:subtitle>
+    			<itunes:summary>Una puntata da collezione! Il numero ZERO non si scorda mai... Francesco e Geralt discutono il mondo Nerd. La lista degli argomenti la trovi su  http://piazzaumarell.it</itunes:summary>
+    			<itunes:image href="http://piazzaumarell.it/logo.jpg" />
+    			<enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_00.mp3" length="68461055" type="audio/mpeg" />
+    			<guid>http://piazzaumarell.it/puntate/PiazzaUmarell_00.mp3</guid>
+          <description>Una puntata da collezione! Il numero ZERO non si scorda mai... Francesco e Geralt discutono il mondo Nerd. La lista degli argomenti la   trovi su http://piazzaumarell.it
+          </description>
+          <pubDate>Thu, 25 Aug 2016 14:43:02 +0000</pubDate>
+    			<itunes:duration>2:22:18</itunes:duration>
+          <piazza:sommario>
+            <![CDATA[
+            function Sfida(){
+              /*Giochiamo a trovare la <strong>definizione universale di Gioco Indie</strong> */
+             "Quando un videogioco si può definire indipendente e dove finisce questa definizione?"
+            }
+            function SpiegaIlVecchio( "Twitch" ) {
+             "La guida definitiva per chi non capisce che senso abbia <strong>guardare gli altri giocare</strong> ai videogiochi."
+            }
+            function Curiosity( "Nautilus Live" ){
+             //I mondi nuovi ci interessano davvero<span style="color: #666666">?</span>
+             "Abbiamo gli occhi puntati al cielo, ma sappiamo <strong>cosa si nasconde nelle profondità degli oceani</strong>?"
+              <a href="http://www.nautiluslive.org/" target="_blank">Nautilus Live</a>
+            }
+            function TiRicordi( "Battlestar Galactica" ) {
+             //Una <strong>serie TV</strong> che ci sta piacendo molto e il lavoro sul mio modellino.
+              <a href="http://gundamdeep.forumfree.it/?t=72679741" target="_blank">Segui i lavori sul modellino.</a>
+            }
+            function UltimeDalCielo() {
+              //Una storia molto triste, il <strong>destino a portata di smartphone</strong>.
+              "<a href="http://www.kctv5.com/story/32143085/teen-recovering-after-being-shot-in-overland">Leggi la notizia</a>"
+            }
+            function StorieDiNerd() {
+             /* <span style="color: #666666"></span> <strong>Einstein</strong> fu bocciato in matematica<span style="color: #666666">!</span> O no<span style="color: #666666">?</span> */
+              "Facciamo luce sulla scusa più utilizzata dagli studenti rimandati in matematica."
+            }
+            function OffertePerBarboni(){
+             "<strong>Rayman Origin</strong> tra i regali di ubisoft regali di Ubisoft ogni mese"
+            }
+            function News(){
+             /* Che succede amico? */
+              The Hunger: Un film sulla Spedizione Donner <a
+              href="https://it.wikipedia.org/wiki/Spedizione_Donner" target="_blank">(->)</a>
+              Facebook lancia una piattaforma per lo sviluppo e la vendita di giochi <a href="https://www.destructoid.com/facebook-launching-gaming-platform-381334.phtml" target="_blank">(->)</a>
+              Un sismografo personale su Kickstarter <a href="https://www.kickstarter.com/projects/angelrodriguez/raspberry-shake-your-personal-seismograph" target="_blank">(->)</a>
+              Chi non vorrebbe una replica esatta del piano di volo di Apollo 11 <a href="http://www.space.com/33467-apollo-11-moon-landing-flight-plan-kickstarter.html" target="_blank">(->)</a>
+              Esce Teensy 3.5 e 3.6 <a href="http://hackaday.com/2016/08/17/introducing-the-teensy-3-5-and-3-6/" target="_blank">(->)</a>
+              Un nuovo rover su Marte nel 2020 <a href="http://www.media.inaf.it/2016/08/17/vita-su-marte-a-portata-di-spettro/" target="_blank">(->)</a>
+              Il Deep Space Network della NASA, per seguire le antenne in tempo reale <a href="https://eyes.nasa.gov/dsn/dsn.html" target="_blank">(->)</a>
+              Un Roomba è un problema con un cane in casa? <a href="http://www.vox.com/2016/5/17/11683718/roomba-irobot-robots-disappointment" target="_blank">(->)</a>
+              Casa quasi in fiamme per un stampa 3D di Super Mario <a href="http://hackaday.com/2016/08/16/fail-of-the-week-how-not-to-smooth-a-3d-print/" target="_blank">(->)</a>
+              Action figure del Mastino per soli 200$ <a href="http://kotaku.com/look-at-this-200-game-of-thrones-action-figure-1785326463" target="_blank">(->)</a>
+              Arrivano i remastered di Mass Effect? <a href="http://www.spaziogames.it/notizie_videogiochi/console_multi_piattaforma/238734/in-arrivo-i-remaster-di-mass-effect.aspx" target="_blank">(->)</a>
+              Una partita di D&D proiettata al cinema <a href="https://www.destructoid.com/celebrity-dungeons-and-dragons-campaign-will-be-live-streamed-to-theaters-380833.phtml" target="_blank">(->)</a>
+              Juno si avvicina a Giove <a href="https://www.nasa.gov/mission_pages/juno/main/index.html" target="_blank">(->)</a>
+              Total War arriva su Ipad <a href="http://www.gamesblog.it/post/419578/rome-total-war-per-ipad-immagini-e-video-di-presentazione" target="_blank">(->)</a>
+              Realtà virtuale per il naso: una ventata di aria fresca! All'aroma di peto <a href="http://nosulusrift.ubisoft.com/?lang=it-IT#!/introduction" target="_blank">(->)</a>
+              La collector edition di Star Wars: the force awakens <a href="http://www.polygon.com/2016/8/10/12431304/star-wars-the-force-awakens-3d-blu-ray-collectors-edition">(->)</a>
+              Inizia la fase di montaggio dell episodio VIII <a href="http://cinema.everyeye.it/notizie/star-wars-episodio-viii-rian-johnson-iniziato-fase-montaggio-269435.html" target="_blank">(->)</a>
+              Rayman Origin in regalo da parte di Ubisoft <a href="http://www.eurogamer.it/articles/2016-08-10-news-videogiochi-rayman-origins-gratuito-su-pc-agosto" target="_blank">(->)</a>
+              La nuova telecamera GoPro per i video a 360° <a href="http://altadefinizione.hdblog.it/2016/08/10/GoPro-Omni-video-360/" target="_blank">(->)</a>
+              All'asta il costume del Batman di Nolan e molto altro. Preparate i salvadanai! <a href="http://www.propstore.com/" target="_blank">(->)</a>
+            }
+            function musicCredits(){
+             <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(->)</a>
+            }
+            function friendCredits(){
+            <strong>Ringraziamo</strong>
+            Bruno per l'aiuto nella creazione del podcast  <a href="http://freeplaying.it" target="_blank">(->)</a>
+          }
+            ]]>
+          </piazza:sommario>
+  		  </item>
+        <item>
+          <title>Piazza Umarell #1 - Buona la seconda</title>
+          <link>http://piazzaumarell.it</link>
+          <itunes:author>Francesco&amp;Geralt</itunes:author>
+          <itunes:subtitle>Il podcast per pezzi di nerd</itunes:subtitle>
+          <itunes:summary> La prima puntata ufficiale e parliamo di Social Network, la definizione di un gioco indipendente, angurie esplosive, viaggi intercontinentali a bordo di una cassa, minatori di mammouth e tanto altro
+            La lista degli argomenti la trovi su  http://piazzaumarell.it</itunes:summary>
+
+          <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+          <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_01.mp3" length="65546264" type="audio/mpeg" />
+          <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_01.mp3</guid>
+          <description> La prima puntata ufficiale e parliamo di Social Network, la definizione di un gioco indipendente, angurie esplosive, viaggi intercontinentali a bordo di una cassa, minatori di mammouth e tanto altro
+            La lista degli argomenti la trovi su  http://piazzaumarell.it
+          </description>
+          <pubDate>Mon, 05 Sep 2016 14:43:02 +0000</pubDate>
+          <itunes:duration>2:16:21</itunes:duration>
+          <piazza:sommario>              <![CDATA[
+                          function informationOverflow(){
+                            //  Siamo inondati dalle troppe informazioni! Come facciamo ad aggregarle?
+                            <strong>Reddit</strong> Meglio e peggio di internet in un solo sito: <a href="http://www.reddit.com" target="_blank">(link)</a>
+                              "Alcuni sub-reddit famosi:"
+                              Colourized History <a href="https://www.reddit.com/r/ColorizedHistory/" target="_blank">(link)</a>
+                              IamA <a href="https://www.reddit.com/r/IAmA/" target="_blank">(link)</a>
+                              World Build <a href="https://www.reddit.com/r/worldbuilding/" target="_blank">(link)</a>
+                              Photoshop Battles <a href="https://www.reddit.com/r/photoshopbattles/" target="_blank">(link)</a>
+                              Cooking Recipes <a href="https://www.reddit.com/r/recipes/" target="_blank">(link)</a>
+                              Pizza <a href="https://www.reddit.com/r/Pizza/" target="_blank">(link)</a>
+                            <strong>Pocket</strong> Questo me lo leggo dopo... <a href="https://getpocket.com/" target="_blank">(link)</a>
+                            <strong>Audible</strong> I libri a me piace ascoltarli! <a href="https://www.audible.it/" target="_blank">(link)</a>
+                            <strong>Get Abstract</strong> I bignami per veri professionisti <a href="https://www.getabstract.com/en/" target="_blank">(link)</a>
+                            <strong>Rss</strong> per avere gli aggiornamenti dei tuoi siti preferiti in un solo punto
+                              Feedly <a href="https://feedly.com/i/welcome" target="_blank">(link)</a>
+                              Liveclick - addon firefox per gli rss <a href="https://addons.mozilla.org/it/firefox/addon/liveclick/" target="_blank">(link)</a>
+                              Flipboard - app per vedere gli rss come fossero pagine di giornale <a href="https://flipboard.com/" target="_blank">(link)</a>
+                            <strong>Session Buddy </strong> addon Chrome per salvare la sessione <a href="http://sessionbuddy.com" target="_blank">(link)</a>
+                          }
+                          function webtoons(){
+                           // Cosa sono e qual è la loro storia
+                           <strong>Sito di webtoons per eccellenza </strong> <a href="http://www.webtoons.com/en/" target="_blank">(link)</a>
+                          }
+                          function ultimeDalCielo(){
+                            //Il morto del giorno
+                            Come rapinare un ...distributore di condom  <a href="http://www.bbc.com/news/world-europe-35189938" target="_blank">(link)</a>
+                          }
+                          function librogame(){
+                            // Posso giocare di ruolo...su un libro?
+                            <strong>Lupo solitario</strong> il più conosciuto <a href="https://it.wikipedia.org/wiki/Lupo_Solitario_(librogame)" target="_blank">(link)</a>
+
+                            Il sito italiano che raccoglie libri game fatti dagli utenti  <a href="https://librogame.net" target="_blank">(link)</a>
+                          }
+                          function HotlineErotica(){
+                            // ho bisogno di un pò di compagnia telefonica
+                            <strong>Imparare</strong> a lavorare come "telefonista dell'amore" <a href="http://phonesexsecrets.info/" target="_blank">(link)</a>
+                            <strong>Chiamate</strong> per noi e scrivete la vostra epserienza con <a href="https://www.niteflirt.com/" target="_blank">(link)</a>
+                          }
+                          function giochiDaTavolo(){
+                            <strong>Doom</strong> un video ci spiega il funzionamento <a href="https://www.youtube.com/watch?v=lS_U_zR4WWQ" target="_blank">(link)</a>
+                            <strong>Bloodborne</strong> il gioco di carte <a href="https://boardgamegeek.com/boardgame/195856/bloodborne-card-game" target="_blank">(link)</a>
+                          }
+                          function ItmeJP(){
+                            // C'è chi guadagna giocado a D&D : itmeJP
+                            <strong> Tutti gli show su youtube </strong><a href="https://www.youtube.com/user/itmeJP/playlists" target="_blank">(link)</a>
+                            <strong> Canale twitch </strong>  <a href="https://www.twitch.tv/itmejp" target="_blank">(link)</a>
+
+                          }
+                          function musicCredits(){
+                            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+                          }
+                        ]]></piazza:sommario>
+        </item>
+
+        <item>
+          <title>Piazza Umarell #2 - Non ci capisco più niente </title>
+          <link>http://piazzaumarell.it</link>
+          <itunes:author>Francesco&amp;Geralt</itunes:author>
+          <itunes:subtitle>Il podcast per pezzi di nerd</itunes:subtitle>
+          <itunes:summary> Sono inondato di informazioni e le voglio Tutte! Questa cosa mi sta stressando. Chiamo Lucy per un pò di conforto al modico prezzo di 5$ al minuto... Forse è meglio leggermi dei webtoon che tanto sono gratis.
+            La lista degli argomenti su http://piazzaumarell.it</itunes:summary>
+
+          <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+          <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_02.mp3" length="57837089" type="audio/mpeg" />
+          <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_02.mp3</guid>
+          <description>Sono inondato di informazioni e le voglio Tutte! Questa cosa mi sta stressando. Chiamo Lucy per un pò di conforto al modico prezzo di 5$ al minuto... Forse è meglio leggermi dei webtoon che tanto sono gratis. La lista degli argomenti su http://piazzaumarell.it
+          </description>
+          <pubDate>Thu, 15 Sep 2016 02:00:28 +0000</pubDate>
+          <itunes:duration>2:16:21</itunes:duration>
+          <piazza:sommario><![CDATA[
+                function informationOverflow(){
+                  //  Siamo inondati dalle troppe informazioni! Come facciamo ad aggregarle?
+                  <strong>Reddit</strong> Meglio e peggio di internet in un solo sito: <a href="http://www.reddit.com" target="_blank">(link)</a>
+                    "Alcuni sub-reddit famosi:"
+                    Colourized History <a href="https://www.reddit.com/r/ColorizedHistory/" target="_blank">(link)</a>
+                    IamA <a href="https://www.reddit.com/r/IAmA/" target="_blank">(link)</a>
+                    World Build <a href="https://www.reddit.com/r/worldbuilding/" target="_blank">(link)</a>
+                    Photoshop Battles <a href="https://www.reddit.com/r/photoshopbattles/" target="_blank">(link)</a>
+                    Cooking Recipes <a href="https://www.reddit.com/r/recipes/" target="_blank">(link)</a>
+                    Pizza <a href="https://www.reddit.com/r/Pizza/" target="_blank">(link)</a>
+                  <strong>Pocket</strong> Questo me lo leggo dopo... <a href="https://getpocket.com/" target="_blank">(link)</a>
+                  <strong>Audible</strong> I libri a me piace ascoltarli! <a href="https://www.audible.it/" target="_blank">(link)</a>
+                  <strong>Get Abstract</strong> I bignami per veri professionisti <a href="https://www.getabstract.com/en/" target="_blank">(link)</a>
+                  <strong>Rss</strong> per avere gli aggiornamenti dei tuoi siti preferiti in un solo punto
+                    Feedly <a href="https://feedly.com/i/welcome" target="_blank">(link)</a>
+                    Liveclick - addon firefox per gli rss <a href="https://addons.mozilla.org/it/firefox/addon/liveclick/" target="_blank">(link)</a>
+                    Flipboard - app per vedere gli rss come fossero pagine di giornale <a href="https://flipboard.com/" target="_blank">(link)</a>
+                  <strong>Session Buddy </strong> addon Chrome per salvare la sessione <a href="http://sessionbuddy.com" target="_blank">(link)</a>
+                }
+                function webtoons(){
+                 // Cosa sono e qual è la loro storia
+                 <strong>Sito di webtoons per eccellenza </strong> <a href="http://www.webtoons.com/en/" target="_blank">(link)</a>
+                }
+                function ultimeDalCielo(){
+                  //Il morto del giorno
+                  Come rapinare un ...distributore di condom  <a href="http://www.bbc.com/news/world-europe-35189938" target="_blank">(link)</a>
+                }
+                function librogame(){
+                  // Posso giocare di ruolo...su un libro?
+                  <strong>Lupo solitario</strong> il più conosciuto <a href="https://it.wikipedia.org/wiki/Lupo_Solitario_(librogame)" target="_blank">(link)</a>
+
+                  Il sito italiano che raccoglie libri game fatti dagli utenti  <a href="https://librogame.net" target="_blank">(link)</a>
+                }
+                function HotlineErotica(){
+                  // ho bisogno di un pò di compagnia telefonica
+                  <strong>Imparare</strong> a lavorare come "telefonista dell'amore" <a href="http://phonesexsecrets.info/" target="_blank">(link)</a>
+                  <strong>Chiamate</strong> per noi e scrivete la vostra epserienza con <a href="https://www.niteflirt.com/" target="_blank">(link)</a>
+                }
+                function giochiDaTavolo(){
+                  <strong>Doom</strong> un video ci spiega il funzionamento <a href="https://www.youtube.com/watch?v=lS_U_zR4WWQ" target="_blank">(link)</a>
+                  <strong>Bloodborne</strong> il gioco di carte <a href="https://boardgamegeek.com/boardgame/195856/bloodborne-card-game" target="_blank">(link)</a>
+                }
+                function ItmeJP(){
+                  // C'è chi guadagna giocado a D&amp;D : itmeJP
+                  <strong> Tutti gli show su youtube </strong><a href="https://www.youtube.com/user/itmeJP/playlists" target="_blank">(link)</a>
+                  <strong> Canale twitch </strong>  <a href="https://www.twitch.tv/itmejp" target="_blank">(link)</a>
+
+                }
+                function musicCredits(){
+                  <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+                }
+            ]]></piazza:sommario>
+        </item>
+        <item>
+        <title>Piazza Umarell #3 - L'antico libro andava sfogliato...</title>
+          <link>http://piazzaumarell.it</link>
+          <itunes:author>Francesco&amp;Geralt</itunes:author>
+          <itunes:subtitle>Il podcast per pezzi di nerd</itunes:subtitle>
+          <itunes:summary> L’antico libro è indecifrabile, come facciamo? Potremmo chiedere in prestito il superdottore IBM e fargli fare tutto il lavoro mentre noi ci leggiamo  Bleach..magari mangiandoci un sandwich vecchio 100 anni.
+            Gli argomentoni di questa puntata: Spazio, Videogames, Realtà Virtuale, Serie TV, Libri antichi, Fumetti e Applicazioni.
+            La lista estesa degli argomenti e i link su  http://piazzaumarell.it</itunes:summary>
+          <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+          <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_03.mp3" length="86678713" type="audio/mpeg" />
+          <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_03.mp3</guid>
+          <description> L’antico libro è indecifrabile, come facciamo? Potremmo chiedere in prestito il superdottore IBM e fargli fare tutto il lavoro mentre noi ci leggiamo Bleach..magari mangiandoci un sandwich vecchio 100 anni.
+          Gli argomentoni di questa puntata: Spazio, Videogames, Realtà Virtuale, Serie TV, Libri antichi, Fumetti e Applicazioni.
+          La lista estesa degli argomenti e i link su  http://piazzaumarell.it
+          </description>
+          <pubDate>Sun, 25 Sep 2016 14:00:00 +0000</pubDate>
+          <itunes:duration>1:30:17</itunes:duration>
+          <piazza:sommario><![CDATA[
+            function Spazio(){
+              // Ultima frontiera
+            <strong>  Esplosione</strong> di un razzo a Cape Canaveral  <a href="http://fw.to/SZgzSwN" target="_blank">(link)</a>
+              <strong>Risveglio</strong> della sonda dopo 2 anni <a href="http://pro.hwupgrade.it/news/scienza-tecnologia/la-nasa-torna-in-contatto-con-stereo-b-dopo-2-anni-di-silenzio-assoluto_64135.html" target="_blank">(link)</a>
+              <strong>Philae</strong> ritrovata    <a href="http://www.diregiovani.it/2016/09/05/50265-scientificamente-rosetta-ritrova-philae-grazie-a-osiris.dg/" target="_blank">(link)</a>
+              <strong>Terra 2</strong> finalmente trovata <a href="http://www.tomshw.it/news/proxima-b-quanto-ci-vuole-per-arrivarci-e-come-fotografarlo-79509" target="_blank">(link)</a>
+              <strong>Spingere</strong> una sonda coi Laser    <a href="http://www.scientificamerican.com/article/100-million-plan-will-send-probes-to-the-nearest-star1/" target="_blank">(link)</a>
+              <strong>ISS</strong> in vendita?    <a href="http://www.tomshw.it/news/stazione-spaziale-vendesi-ottimo-stato-vista-terra-79421" target="_blank">(link)</a>
+              <strong>Porta nuova</strong> per l'ISS href=""<a href="https://www.youtube.com/watch?v=HFGHwO75aSs" target="_blank">(link)</a>
+            }
+            function videogiochi(){
+              <strong>Pannello</strong> di controllo per Kerbal <a href="http://www.sgtnoodle.com/projects/kerbal-control-panel/" target="_blank">(link)</a>
+              <strong>Star Citizen</strong>, il gameplay <a href="http://www.eurogamer.it/articles/2016-08-21-news-videogiochi-star-citizen-1-ora-gameplay-inedito-gamescom-2016" target="_blank">(link)</a>
+              <strong>Titoli</strong> indie del PAX  <a href="http://www.gamespot.com/gallery/our-10-favorite-indie-games-at-pax-west/2900-877/" target="_blank">(link)</a>
+              <strong> Road Redemption</strong> il titolo kicktarterato ora rimandato x un alluvione. <a href="http://kotaku.com/louisiana-floods-delay-game-release-1785666690" target="_blank">(link)</a>
+              <strong>Archivio</strong> di Game Informer <a href="https://www.destructoid.com/game-informer-s-video-game-vault-is-quite-the-sight-to-behold-381512.phtml " target="_blank">(link)</a>
+              <strong>Videogioco sul Titanic </strong> <a href="http://www.titanichg.com/" target="_blank">(link)</a>
+            }
+            function VR(){
+              <strong>Mercato immobiliare</strong> <a href="http://www.adweek.com/adfreak/real-estate-brand-turned-kids-drawings-their-dream-homes-vr-experiences-173153" target="_blank">(link)</a>
+              <strong>riabilitazione</strong> <a href="http://qz.com/757516/paraplegics-are-learning-to-walk-again-with-virtual-reality/" target="_blank">(link)</a>
+              <strong>Porno VR</strong> <a href="https://techcrunch.com/2016/08/20/the-reality-of-vr-porn/?ncid=rss&cps=gravity_1730_2739078711671573408" target="_blank">(link)</a>
+            }
+            function SerieTV(){
+              <strong>Legione!</strong>  <a href="http://www.polygon.com/tv/2016/8/25/12646204/legion-xmen-bryan-singer" target="_blank">(link)</a>
+              <strong>Jack Ryan </strong> <a href="http://serial.everyeye.it/notizie/jack-ryan-per-john-krasinski-sara-come-film-in-10-puntate-270098.html" target="_blank">(link)</a>
+              <strong>Statua i killer Croc </strong> <a href="http://www.gamespot.com/articles/150-suicide-squad-killer-croc-statue-features-a-su/1100-6442987/" target="_blank">(link)</a>
+            }
+
+            function Internet(){
+               // vuol dire tutto e niente, ma almeno non ho scritto ALTRO o MISC
+              <strong>Dottori anti bufala</strong> <a href="http://salute.diariodelweb.it/salute/articolo/?nid=20160906_390223" target="_blank">(link)</a>
+              <strong>Giustiziere</strong>  dei selfie stick! <a href="http://www.boredpanda.com/man-cuts-selfie-sticks-branch-cutter-buddy-bolton/" target="_blank">(link)</a>
+              <strong>Fotocamera</strong> per lo smartphone <a href="http://www.theverge.com/circuitbreaker/2016/8/24/12625034/hasselblad-camera-module-moto-z-phone-release" target="_blank">(link)</a>
+              <strong>IA </strong>risolve un dilemma medico impossibile  <a href="http://www.rainews.it/dl/rainews/articoli/intelligenza-artificiale-risolve-un-problema-medico-di-difficile-soluzione-Donna-giapponese-curata-grazie-ad-sistema-esperto-3b5f0440-7594-4aa5-a7a6-c7a37fa9a438.html" target="_blank">(link)</a>
+            }
+            function Letture(){
+              // Libri
+              <strong>Primo libro sui Sandwich</strong> <a href="https://archive.org/stream/uptodatesandwich00full#page/n5/mode/2up" target="_blank">(link) </a>
+              <strong>Libro Misterioso</strong> <a href="https://www.yahoo.com/news/tiny-spanish-publisher-clones-worlds-most-mysterious-book-102653981.html" target="_blank">(link) </a>
+              // Fumetti
+              <strong>Thorgal</strong> in uscita con la Gazzetta. Finalmente una nuova edizione. <a href="http://www.fumettologica.it/2016/04/thorgal-gazzetta-dello-sport/" target="_blank">(link) </a>
+              <strong>Bleach</strong> è finito, per ora?
+              <strong>Manga Taisho award 2016</strong> <a href="https://myanimelist.net/forum/?topicid=1495858" target="_blank">(link) </a>
+              <strong>One piece</strong> è al 65% <a href="http://animefeeds.com/2016/07/one-piece-mangaka-eiichiro-oda-says-that-story-is-about-65-finished/" target="_blank">(link) </a>
+              <strong>Sherlock</strong> bilingue <a href="http://www.justnerd.it/2016/07/30/fumetto-di-sherlock-italia/" target="_blank">(link) </a>
+            }
+            function Apps(){
+              <strong>Umarellapp</strong> <a href="http://www.umarellsapp.it/" target="_blank">(link) </a>
+              <strong>Asgard Rift</strong> <a href="http://www.mangatar.net/it/portfolio/asgard-rift-battle-arena/" target="_blank">(link) </a>
+            }
+            function musicCredits(){
+              <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+            }
+          ]]></piazza:sommario>
+      </item>
+      <item>
+      <title>Piazza Umarell #4 - Il segreto del nostro successo</title>
+        <link>http://piazzaumarell.it</link>
+        <itunes:author>Francesco&amp;Geralt</itunes:author>
+        <itunes:subtitle>Il podcast per pezzi di nerd</itunes:subtitle>
+        <itunes:summary> Sei stufo degli orari di lavoro? No aspetta, fammi capire bene...lavori ancora? Ma sei pazzo? Da oggi grazie al programma di affiliazione di Piazza Umarell potrai iniziare la strada per la felicità e come noi guadagnarti il tuo primo miliardo! Ho detto miliardo? Volevo dire BILIARDO! Hai capito bene! Clicca lì.
+          La lista estesa degli argomenti e i link su  http://piazzaumarell.it</itunes:summary>
+        <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+        <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_04.mp3" length="84888752" type="audio/mpeg" />
+        <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_04.mp3</guid>
+        <description>Sei stufo degli orari di lavoro? No aspetta, fammi capire bene...lavori ancora? Ma sei pazzo? Da oggi grazie al programma di affiliazione di Piazza Umarell potrai iniziare la strada per la felicità e come noi guadagnarti il tuo primo miliardo! Ho detto miliardo? Volevo dire BILIARDO! Hai capito bene! Clicca lì.
+          La lista estesa degli argomenti e i link su  http://piazzaumarell.it
+        </description>
+        <pubDate>Wed, 5 Oct 2016 17:00:00 +0000</pubDate>
+        <itunes:duration>2:56:40</itunes:duration>
+          <piazza:sommario><![CDATA[
+              function Webeconomy(){
+                // Come si è evoluto il sistema id pubblicità online
+                Clickbait e i siti spazzatura <a href="https://techcrunch.com/2016/09/25/wtf-is-clickbait/?ncid=rss" target="_blank">(link)</a>
+                Guadagnare via facebook <a href="http://www.guadagnareconunblog.com/2014/07/come-guadagnare-con-una-pagina-facebook/" target="_blank">(link)</a>
+                // GLi adblocker
+                Facebook si difende da adblock <a href="https://www.tomshw.it/facebook-contro-adblock-guerra-totale-sulla-pubblicita-79273" target="_blank">(link)</a>
+                Il 77% degli utenti che usa AdBlock si sente colpevole <a href="http://www.huffingtonpost.com/entry/57e43749e4b05d3737be5784?timestamp=1474574566927" target="_blank">(link)</a>
+                Banzai media SRL<a href="http://static.stbm.it/cookie_policy/siti_bm.pdf" target="_blank">(link)</a>
+                Netaddiction <a href="http://www.netaddiction.it/network/" target="_blank">(link)</a>
+
+                Personalità dell'internet <a href="http://www.repubblica.it/tecnologia/social-network/2016/08/22/news/l_esercito_degli_influencer_come_nascono_e_perche_fanno_tendenza-146240663/?rss#gallery-slider=146396572" target="_blank">(link)</a>
+              }
+              function CasaPonzi(){
+                // Un ingegnere vale più di mille truffatori
+                La truffa degli ebook su amazon  <a href="http://www.zdnet.com/article/exclusive-inside-a-million-dollar-amazon-kindle-catfishing-scam/" target="_blank">(link)</a>
+              }
+              function news(){
+
+                Quanto costerebbe un AT-AT ? <a href="http://movieweb.com/star-wars-real-at-at-how-much-cost/" target="_blank">(link)</a>
+                Lo Hobbit - cofanetto nuovo. <a href="https://www.amazon.it/Lo-Hobbit-Trilogia-Extended-DVD/dp/B015HER6T6/ref=sr_1_3?ie=UTF8&qid=1475680013&sr=8-3" target="_blank">(link)</a>
+                Bioshock - Remastered
+                Ho finito Narcos 2 (questione boss e retate)  <a href="https://www.netflix.com/it/" target="_blank">(link)</a>
+                Addio Balckberry, ti abbiamo voluto bene  <a href="http://it.ibtimes.com/rip-blackberry-addio-smartphone-futuro-solo-software-1467570" target="_blank">(link)</a>
+                La gente davvero buca gli iphone7 x il jack cuffie? <a href="http://www.craveonline.com/design/1124445-people-actually-drilling-holes-iphone-7-make-headphone-jack#/slide/1" target="_blank">(link)</a>
+                Il jack mancante su Iphone è un problema per i non abbienti <a href="http://www.theverge.com/2016/9/26/13063738/apple-iphone-7-headphone-jack-internet-access-low-income-households" target="_blank">(link)</a>
+                File automatiche in Giappone  <a href="http://www.geek.com/tech/nissans-propilot-chair-is-the-autonomous-furniture-youve-always-wanted-1672309/" target="_blank">(link)</a>
+                Facebook e whatsapp <a href="https://techcrunch.com/2016/09/27/facebook-ordered-to-stop-harvesting-data-on-whatsapp-users-in-germany/amp/" target="_blank">(link)</a>
+                Facebook per le aziende <a href="http://www.repubblica.it/tecnologia/social-network/2016/09/28/news/facebook_at_work_il_social_per_l_ufficio-148684572/" target="_blank">(link)</a>
+                Internet fai da te (quando uno dice: mi faccio internet!) <a href="http://arstechnica.com/information-technology/2015/11/how-a-group-of-neighbors-created-their-own-internet-service/?platform=hootsuite" target="_blank">(link)</a>
+                Addio Rosetta <a href="http://it.blastingnews.com/cronaca/2016/10/photo/photogallery-rosetta-missione-compiuta-addio-per-sempre-897183.html" target="_blank">(link)</a>
+                I programmi di Elon  <a href="http://www.theverge.com/2016/9/27/13080950/spacex-mars-photos-wallpaper-elon-musk" target="_blank">(link)</a>
+                I nuovi motori della SpaceX <a href="https://www.rt.com/usa/360595-spacex-musk-mars-raptor-engine/" target="_blank">(link)</a>
+                Un vero Transformer <a href="http://www.boredpanda.com/bmw-transformer-letrons/" target="_blank">(link)</a>
+                Come si fa un Raspberry <a href="http://www.wired.co.uk/article/raspberry-pi-factory" target="_blank">(link)</a>
+                Copia perfetta del disco della Voyager  <a href="http://www.geek.com/science/your-own-replica-of-the-voyager-golden-record-is-just-a-kickstarter-pledge-away-1671866/" target="_blank">(link)</a>
+                Il cheating al tempo del gameboy  <a href="https://www.youtube.com/watch?v=3BchGPd9oMM" target="_blank">(link)</a>
+                Un cannone ad aria gigante  <a href="https://blog.adafruit.com/2016/09/26/giant-vortex-cannon-knocks-over-cardboard-box-block-wall-from-100-meters-away/" target="_blank">(link)</a>
+                Imparare l'alfabeto con Destiny <a href="http://www.theverge.com/2016/9/22/13023572/d-is-for-destiny-bungie-childrens-book-alphabet" target="_blank">(link)</a>
+                Parodia Porno di Overwatch (TRAILER) <a href="http://www.polygon.com/2016/9/22/13023234/overwatch-porn-parody-brazzers-oversnatch-xxx" target="_blank">(link)</a>
+                Password leggibili e abbastanza sicure <a href="https://xkpasswd.net/s/" target="_blank">(link)</a>
+              }
+              function musicCredits(){
+                <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+              }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #5 - Il materasso mortale</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di nerd</itunes:subtitle>
+      <itunes:summary> Francesco rivela il piano malefico di una multinazionale americana, Geralt si difende dai bulli con un panino e dalla Cina arriva una nuova minaccia: le webnovel
+        La lista estesa degli argomenti e i link su  http://piazzaumarell.it</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_05.mp3" length="34872276" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_05.mp3</guid>
+      <description>Francesco rivela il piano malefico di una multinazionale americana, Geralt si difende dai bulli con un panino e dalla Cina arriva una nuova minaccia: le webnovel
+        La lista estesa degli argomenti e i link su  http://piazzaumarell.it
+      </description>
+      <pubDate>Sat, 15 Oct 2016 00:01:00 +0000</pubDate>
+      <itunes:duration>1:12:33</itunes:duration>
+          <piazza:sommario><![CDATA[
+          function LumberTelegram(){
+          // quando puoi barare ai videogiochi con l'elettronica
+            Ho rotto Lumberjack su Telegram -scheda usata <a href="http://piazzaumarell.it/risorse/immagini/puntata-05-scheda.jpg" target="_blank">(link)</a>
+          }
+          function Cocktail(){
+          // un pò di storia per gli ubriaconi
+          Irish Coffee - il piacere di bere in inverno <a href="http://www.mpproject.it/blog/2015/11/04/irish-coffee-il-principe-dellinverno/" target="_blank">(link)</a>
+          }
+          function Panini(){
+          // Geralt
+          Panino Autodifesa
+          //Francesco
+          Southern Bacon Sandwich
+
+          Tutti i panini li trovi al <a href="https://archive.org/stream/uptodatesandwich00full#page/n5/mode/2up" target="_blank">(link)</a>
+          }
+
+          function UltimeDalCielo(){
+            // Primo genio
+            Morte-rasso<a href="http://wtop.com/prince-william-county/2016/09/va-woman-riding-mattress-top-van-dies-fall/" target="_blank">(link)</a>
+            // Secondo genio
+            Giubbotto anti proiettile<a href="http://www.click2houston.com/news/national/police-man-shot-after-asking-if-bulletproof-vest-works" target="_blank">(link)</a>
+            // La grande mente
+            Dispersa inconsapevole <a href="https://www.yahoo.com/news/blogs/the-sideshow/missing-woman-unknowingly-joins-search-herself-165249353.html" target="_blank">(link)</a>
+          }
+          function Libro(){
+            Douluo Dalu <a href="https://onedrive.live.com/?authkey=!ACcQJ1GYtBqPWzQ&id=E7B2482199BAE023!146&cid=E7B2482199BAE023" target="_blank">(link)</a>
+          }
+          function Microargomenti(){
+          LinuxDay <a href="http://www.linuxday.it/" target="_blank">(link)</a>
+
+          Un vlog sulle mappe e sulla geopolitica <a href="http://www.maproomblog.com/2016/08/map-men/" target="_blank">(link)</a>
+
+          Un generatore di mappe casuali  <a href="http://mewo2.com/notes/terrain/" target="_blank">(link)</a>
+
+          Storia da riscrivere: hanno trovato monete dell’antica Roma a Okinawa     <a href="http://www.linkiesta.it/it/article/2016/10/03/storia-da-riscrivere-hanno-trovato-monete-dellantica-roma-a-okinawa/31910/" target="_blank">(link)</a>
+
+          LifeLine: inverno bianco
+          <a href="http://www.bigfishgames.com/daily/3mingames/lifeline/" target="_blank">(link)</a>
+          }
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+          ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #6 - La marcia sul codice</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle> Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>C'era una volta B, un uomo affabile e amichevole. Un giorno B ebbe un'idea, ma decise di non dirla a nessuno, anzi decise proprio che quell'idea era sua e gli altri non dovevano parlarne...chi è questo B? Nessuno lo sa, perchè morì solo... Per fortuna è arrivato Stallman che ci fa vivere felici e contenti.
+      La lista degli argomenti la trovi su  http://piazzaumarell.it</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_06.mp3" length="43571408" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_06.mp3</guid>
+      <description>C'era una volta B, un uomo affabile e amichevole. Un giorno B ebbe un'idea, ma decise di non dirla a nessuno, anzi decise proprio che quell'idea era sua e gli altri non dovevano parlarne...chi è questo B? Nessuno lo sa, perchè morì solo... Per fortuna è arrivato Stallman che ci fa vivere felici e contenti.
+      La lista degli argomenti la trovi su  http://piazzaumarell.it
+      </description>
+      <pubDate>Sun, 30 Oct 2016 12:00:00 +0000</pubDate>
+      <itunes:duration>1:30:47</itunes:duration>
+          <piazza:sommario><![CDATA[
+          function Panini(){
+          // Geralt
+          Geralt: Fried Cheese Sandwich. Tagliare con un coppapasta dei cerchi di fetta di pane bianco. Aggiungere fette di “american cheese” e condire con sale e paprica. Chiudere con un’altra fetta di pane e friggere in burro fino a che non diventa dorato. Servire caldo. Certo una mozzarella in carrozza lo batte 10 a 1 !
+          //Francesco
+          Ripe olive sandwich: fare a pezzettini le olive, mixare con maionese e indovina dove devi mettere il tutto?
+
+          Tutti i panini li trovi al <a href="https://archive.org/stream/uptodatesandwich00full#page/n5/mode/2up" target="_blank">(link)</a>
+          }
+
+          function CasaPonzi(){
+            Lo schema ponzi <a href="https://it.wikipedia.org/wiki/Schema_Ponzi" target="_blank">(link)</a>
+          }
+          function GPL(){
+            GPL <a href="https://it.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">(link)</a>
+            // LINUS TORLVALDS
+            Linux  <a href="https://it.wikipedia.org/wiki/Linux_(kernel)" target="_blank">(link)</a>
+            GIT <a href="https://it.wikipedia.org/wiki/Git_(software)" target="_blank">(link)</a>
+            La scrivania di Linus <a href="https://www.youtube.com/watch?v=fuS-3HSnpq4" target="_blank">(link)</a>
+            // Open hardware
+            Definizione di open hardware  <a href="https://it.wikipedia.org/wiki/Hardware_libero" target="_blank">(link)</a>
+            ARDUINO: LA STORIA  <a href="https://it.wikipedia.org/wiki/Arduino_(hardware)" target="_blank">(link)</a>
+            La RepRap: stampante 3D open source  <a href="http://reprap.org/wiki/RepRap/it" target="_blank">(link)</a>
+            Thingiverse Le idee 3D open source  <a href="http://www.thingiverse.com/" target="_blank">(link)</a>
+            LoRa  <a href="http://www.iotleague.com/lorawan-low-power-wide-area-network/" target="_blank">(link)</a>
+            Il tizio delle armi da fuoco stampate in 3D <a
+            href="http://arstechnica.com/business/2016/10/come-and-take-it-how-cody-wilson-became-americas-3d-printing-gunsmith/" target="_blank">(link)</a>
+            Oscilloscopio Open Source <a href="http://hackaday.com/2016/10/06/open-design-oscilloscope-could-be-almost-free/" target="_blank">(link)</a>
+            Un satellite open source <a href="https://it.wikipedia.org/wiki/CubeSat" target="_blank">(link)</a>
+          }
+          function Schiapparelli(){
+            Schiapparelli Lascia il mondo <a href="http://it.ibtimes.com/exomars-schiaparelli-si-separa-dalla-sonda-e-vola-verso-marte-video-1469877" target="_blank">(link)</a>
+          }
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+          ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #7 - Solo se sei l'eletto</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>Ancora una volta Francesco rivela una sconcertante verità sul sito di Piazzaumarell poco dopo l'annuncio delle uscite settimanali...Coincidenza? Io non credo.
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_07.mp3" length="28917510" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_07.mp3</guid>
+      <description>Ancora una volta Francesco rivela una sconcertante verità sul sito di Piazzaumarell poco dopo l'annuncio delle uscite settimanali...Coincidenza? Io non credo.
+      La lista degli argomenti la trovi su  http://piazzaumarell.it
+      </description>
+      <pubDate>Sun, 6 Nov 2016 18:00:00 +0000</pubDate>
+      <itunes:duration>1:00:10</itunes:duration>
+          <piazza:sommario><![CDATA[
+          function UltimeDalCielo(){
+            Giovane e assetato <a href="http://www.cbc.ca/beta/news/canada/new-brunswick/brady-grattan-drinking-game-death-1.3458093" target="_blank">(link)</a>
+            Uomo tornado d'acqua <a href="http://www.dailymail.co.uk/news/article-2541344/Daredevil-photographer-drowned-sucked-deadly-WHIRLPOOL-trying-film.html" target="_blank">(link)</a>
+            Boris l'amico dei tetti  <a href="http://www.ibtimes.co.uk/selfie-dangers-teen-falls-9-floors-his-death-he-poses-rooftop-russia-1521743" target="_blank">(link)</a>
+          }
+          function NovelCinesi(){
+            Panlong - Coiling Dragon <a href="http://www.wuxiaworld.com/cdindex-html/" target="_blank">(link)</a>
+            Douluo Dalu <a href="https://bluesilvertranslations.wordpress.com/" target="_blank">(link)</a>
+            Tales of Gods and Demons <a href="http://www.wuxiaworld.com/tdg-index/" target="_blank">(link)</a>
+          }
+          function LeRobe(){
+            Carica Iphone d’emergenza. by Rulof    <a href="http://hackaday.com/2016/10/30/phone-to-phone-power-theivery/" target="_blank">(link)</a>
+            Suonatori di cornamusa fuori dal comune <a href="http://www.atlasobscura.com/articles/extreme-bagpiping-situations-from-antarctica-to-the-beaches-of-dday" target="_blank">(link)</a>
+            Twitter chiude Vine? E chi compra Twitter? <a href="http://www.prismomag.com/occupy-twitter/" target="_blank">(link)</a>
+            Un aggregatore per le news tecnologiche <a href="http://skimfeed.com/" target="_blank">(link)</a>
+            Usare i guanti da astronauti <a href="https://twitter.com/NASA/status/790640443046318080" target="_blank">(link)</a>
+            Una passeggiata nella ISS in 4k <a href="https://www.youtube.com/watch?v=DhmdyQdu96M" target="_blank">(link)</a>
+            Tutti i satelliti in orbita alla terra <a href="http://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/" target="_blank">(link)</a>
+          }
+          function GiocoDaTavolo(){
+            Gloom <a href="https://www.amazon.it/Uplay-It-GLM1-Uplay-Gioco-Gloom/dp/B01KY2SQ9U/ref=sr_1_1?ie=UTF8&qid=1478455603&sr=8-1" target="_blank">(link)</a>
+          }
+
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+          ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #8 - Il giorno dell'eletto</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>"Il più grande podcast sotti i cieli", questo direbbero di noi i Cinesi..ma a noi non basta! Per questo i nostri migliori scienziati lanceranno presto il James Webb e potremmo presto ascoltare Piazza Umarell anche su altri pianeti.
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_08.mp3" length="31198000" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_08.mp3</guid>
+      <description>"Il più grande podcast sotti i cieli", questo direbbero di noi i Cinesi..ma a noi non basta! Per questo i nostri migliori scienziati lanceranno presto il James Webb e potremmo presto ascoltare Piazza Umarell anche su altri pianeti.
+      La lista degli argomenti la trovi su  http://piazzaumarell.it
+      </description>
+      <pubDate>Sun, 13 Nov 2016 18:00:00 +0000</pubDate>
+      <itunes:duration>1:04:35</itunes:duration>
+          <piazza:sommario><![CDATA[
+          function UltimeDalCielo(){
+            La danza del serpente <a href="http://nypost.com/2016/04/07/singer-dies-onstage-after-getting-bit-by-cobra/" target="_blank">(link)</a>
+          }
+          function CasaPonzi(){
+            Trump macedone <a href="https://www.buzzfeed.com/craigsilverman/how-macedonia-became-a-global-hub-for-pro-trump-misinfo?utm_term=.mm4pWeR44#.tf2lWL7OO" target="_blank">(link)</a>
+          }
+          function LeRobe(){
+            Il primo Hyperloop    <a href="https://techcrunch.com/2016/11/08/hyperloop-one-will-build-the-first-hyperloop-system-to-go-from-dubai-to-abu-dhabi-in-twelve-minutes/" target="_blank">(link)</a>
+            VLC scritto in JS <a href="http://ascii.textfiles.com/archives/5084" target="_blank">(link)</a>
+            Foto di cani <a href="https://www.theguardian.com/lifeandstyle/gallery/2016/nov/01/zen-dogs-relaxed-pooches-captured-in-spontaneous-canine-bliss-in-pictures" target="_blank">(link)</a>
+            Un netflix per dormire <a href="http://napflix.tv/" target="_blank">(link)</a>
+            Motorola ha bisogno di pezzi <a href="http://www.theverge.com/circuitbreaker/2016/11/5/13523078/motorola-indigogo-contest-moto-mod-ideas" target="_blank">(link)</a>
+            Una newsletter abbastanza triste <a href="http://tinyletter.com/crying" target="_blank">(link)</a>
+            Misurare la lunghezza della costa <a href="http://www.atlasobscura.com/articles/why-its-impossible-to-know-a-coastlines-true-length" target="_blank">(link)</a>
+          }
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+          ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #9 - Non mi viene in mente niente</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>E' una domenica speciale a casa Ponzi. Mamma Ponzi ha preparato il bollito, Papà Ponzi è uscito con Figlio Ponzi a prendere i pasticcini! Tanta gente è stata invitata al pranzo domenicale...chissà quante storie si racconteranno!
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_09.mp3" length="29090174" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_09.mp3</guid>
+      <description>E' una domenica speciale a casa Ponzi. Mamma Ponzi ha preparato il bollito, Papà Ponzi è uscito con Figlio Ponzi a prendere i pasticcini! Tanta gente è stata invitata al pranzo domenicale...chissà quante storie si racconteranno!
+      La lista degli argomenti la trovi su  http://piazzaumarell.it
+      </description>
+      <pubDate>Sun, 20 Nov 2016 19:00:00 +0000</pubDate>
+      <itunes:duration>1:00:31</itunes:duration>
+          <piazza:sommario><![CDATA[
+            function CasaPonzi(){
+              Banner succhia-soldi <a href="http://www.associazionedifesaconsumatori.it/news/utenze-telefono-internet/abbonamenti-servizi-su-cellulari-a-pagamento-mai-richiesti/" target="_blank">(link)</a>
+              Ladri di github <a href="https://www.reddit.com/r/Python/comments/5bijow/what_python_bots_have_you_written_for_profit_and/" target="_blank">(link)</a>
+            }
+            function UltimeDalCielo(){
+              Il Piromante <a href="https://www.theguardian.com/us-news/2015/jul/05/maine-firework-kills-man-head" target="_blank">(link)</a>
+            }
+            function GiochiDaTavolo(){
+              Shlosser  <a href="https://www.uplay.it/gioco-da-tavolo-Die-Schlosser-des-Konig-Ludwig-.html" target="_blank">(link)</a>
+              Shadows over camelot <a href="https://boardgamegeek.com/boardgame/15062/shadows-over-camelot" target="_blank">(link)</a>
+            }
+            function LaRoba(){
+              Emirati a basso costo <a href="https://www.youtube.com/watch?v=84WIaK3bl_s" target="_blank">(link)</a>
+              Guerra alle bufale <a href="http://www.theverge.com/2016/11/14/13630722/google-fake-news-advertising-ban-2016-us-election" target="_blank">(link)</a>
+              Fondare uno stato <a href="http://www.bbc.com/news/magazine-37941931" target="_blank">(link)</a>
+              Diventare alieni <a href="http://www.geek.com/culture/asgardia-is-a-space-nation-you-can-join-without-leaving-home-1674870/" target="_blank">(link)</a>
+              Kindle manga versione <a href="https://www.engadget.com/2016/11/12/amazon-kindle-paperwhite-manga-edition-review/" target="_blank">(link)</a>
+              Paradosso temporale <a href="http://www.boredpanda.com/rare-time-paradox-makes-these-twins-both-older-than-each-other/" target="_blank">(link)</a>
+              Google fonts <a href="http://www.smartworld.it/internet/google-font-noto.html" target="_blank">(link)</a>
+            }
+            function musicCredits(){
+              <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+            }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #10 - Labirindi e Pandofole</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>Tanti erano gli invitati quel giorno. Dai nobili ai contadini, tutti avevano la possibilità di partecipare all'annuale festa in maschera organizzata dal Re del Labirindo.
+        Un'orchestra suonava gli antichi balli del regno, centinaia di persone ballavano e altrettante sedute ai tavoli scherzavano e mangiavano con gusto il pasto offertogli dal loro amato Re.
+        A un certo punto il silenzio calò nell'enorme salone. Tutti gli occhi erano puntati sul nuovo arrivato, un vecchio dall'aria ordinaria con le mani dietro le spalle."Cosa c'è? Ho dello sporco in faccia?"
+        Dopo qualche secondo, finalmente il Re prende il controllo della situazione "Vmarell, ma quelle che hai addosso sono Pandofole?"
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_10.mp3" length="31059299" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_10.mp3</guid>
+      <description>Tanti erano gli invitati quel giorno. Dai nobili ai contadini, tutti avevano la possibilità di partecipare all'annuale festa in maschera organizzata dal Re del Labirindo.
+        Un'orchestra suonava gli antichi balli del regno, centinaia di persone ballavano e altrettante sedute ai tavoli scherzavano e mangiavano con gusto il pasto offertogli dal loro amato Re.
+        A un certo punto il silenzio calò nell'enorme salone. Tutti gli occhi erano puntati sul nuovo arrivato, un vecchio dall'aria ordinaria con le mani dietro le spalle."Cosa c'è? Ho dello sporco in faccia?"
+        Dopo qualche secondo, finalmente il Re prende il controllo della situazione "Vmarell, ma quelle che hai addosso sono Pandofole?"
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 27 Nov 2016 17:00:00 +0000</pubDate>
+      <itunes:duration>1:04:31</itunes:duration>
+          <piazza:sommario><![CDATA[
+            function UltimeDalCielo(){
+              Il QUASI uomo-serpente <a href="http://www.outdoorhub.com/news/2015/07/01/man-dies-sucking-snake-venom-gain-immunity-toxins/" target="_blank">(link)</a>
+              L'amico degli alligatori <a href="http://edition.cnn.com/2015/07/04/us/texas-alligator-attack" target="_blank">(link)</a>
+            }
+            function CasaPonzi(){
+              Le cose gratis crescono solo nel giardino del re <a href="http://newscdn.newsrep.net/h5/nrshare.html?r=3&lan=it_IT&pid=14&id=wQ4f832a9Xv_it&app_lan=&mcc=222&declared_lan=it_IT&pubaccount=ocms_0&referrer=200620&showall=1&mcc=222" target="_blank">(link)</a>
+            }
+            function GoogleEvangelist(){
+              Bluemail <a href="https://play.google.com/store/apps/details?id=me.bluemail.mail&hl=it" target="_blank">(link)</a>
+              Limbo <a href="https://play.google.com/store/apps/details?id=com.playdead.limbo.full&hl=it" target="_blank">(link)</a>
+            }
+            function LeRobe(){
+              Piromani Spaziali <a href="https://www.ansa.it/scienza/notizie/rubriche/spazioastro/2016/11/21/il-cargo-cygnus-ha-lasciato-la-stazione-spaziale_4f0d59c7-ab92-4bd0-984e-c81516f15e9a.html" target="_blank">(link)</a>
+              Spagnolo da strada <a href="http://adsoftheworld.com/media/digital/netflix_speak_like_the_patron" target="_blank">(link)</a>
+              Elon più veloce di Telecom <a href="http://punto-informatico.it/4356304/PI/News/spacex-alla-conquista-dell-internet-satellite.aspx?utm_source=16068&utm_medium=!%7Butm_medium%7D&utm_term=Pi+Light%3A+Elon+Musk+vuole+l%27Internet+globale+da+satellite%2C+Presunti+abusi+SMS+di+Vodafone+e+Telecom%2C+Accordo+Amazon+ed+FCA+per+acquistare+FIAT+online+%2821%2F11%2F16%29&utm_content=21112016&utm_campaign=2000461" target="_blank">(link)</a>
+              Google maps sa tutto <a href="http://www.androidworld.it/2016/11/21/google-maps-affollamento-441924/" target="_blank">(link)</a>
+              HIV Usb test <a href="http://phys.org/news/2016-11-scientists-hiv-usb.html" target="_blank">(link)</a>
+              Guidiamo un Rover su marte <a href="http://www.caranddriver.com/reviews/we-drive-the-mars-opportunity-rover-review" target="_blank">(link)</a>
+              Home-Assistant (Open Source) <a href="https://home-assistant.io/" target="_blank">(link)</a>
+              La matematica dei labirinti <a href="http://www.gamasutra.com/blogs/HermanTulleken/20161005/282629/Algorithms_for_making_more_interesting_mazes.php" target="_blank">(link)</a>
+              Ridisegnamo le granate <a href="https://warisboring.com/the-u-s-army-designs-a-new-hand-grenade-after-more-than-40-years-7b81f0752fd#.6grqhf2dv" target="_blank">(link)</a>
+            }
+            function musicCredits(){
+              <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+            }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #11 - Peni Lunari</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>Come? Si estendono pure ai russi? - esclamò il Grande Essere dopo aver ascoltato Piazza Umarell #11.
+  "Se voglio scegliere eletti in Russia, dovrò cercare un qualche corso online..."
+  Aveva appena finito di gestire le elezioni presidenziali e voleva prendersi un mese di vacanza quando ecco arrivare un altro lavoro per lui. Stava per mettersi subito a lavoro quando...
+  "No, aspetta! Ma quelle non son persone...sono BOT!!"
+  Emise subito un sospiro di sollievo e chiamò a casa: finalmente poteva prendersi le meritate ferie.
+  "La testa di Francesco è parecchio spaziosa però dopo un pò annoia, meglio uscire di qui ogni tanto...magari potrei andare a visitare la piramide del Nord Dakota!"
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_11.mp3" length="31826545" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_11.mp3</guid>
+      <description>Come? Si estendono pure ai russi? - esclamò il Grande Essere dopo aver ascoltato Piazza Umarell #11.
+  "Se voglio scegliere eletti in Russia, dovrò cercare un qualche corso online..."
+  Aveva appena finito di gestire le elezioni presidenziali e voleva prendersi un mese di vacanza quando ecco arrivare un altro lavoro per lui. Stava per mettersi subito a lavoro quando...
+  "No, aspetta! Ma quelle non son persone...sono BOT!!"
+  Emise subito un sospiro di sollievo e chiamò a casa: finalmente poteva prendersi le meritate ferie.
+  "La testa di Francesco è parecchio spaziosa però dopo un pò annoia, meglio uscire di qui ogni tanto...magari potrei andare a visitare la piramide del Nord Dakota!"
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 4 Dec 2016 17:00:00 +0000</pubDate>
+      <itunes:duration>1:06:31</itunes:duration>
+          <piazza:sommario><![CDATA[
+              function musicCredits(){
+                <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+              }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #12 - Miracolo della dodicesima puntata</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+        E' mattino, e nel tempio i discepoli erano riuniti per ascoltare la lezione del gran maestro.
+  "Buongiorno ragazzi,Oggi vi parlerò dei bitcoin!" disse il maestro sorridendo.
+  Gli occhi dei giovani monaci iniziarono subito ad illuminarsi.
+  Erano mesi che il Gran Maestro non faceva altro che parlare di Filosofia e di Storia. Erano stufi di quella roba, volevano imparare qualcosa sul mondo attuale!
+  Nel villaggio tutti usavano i bitcoin, mentre loro non avevano nemmeno un cellulare! Finalmente, nessuno li prenderà più in giro dopo questa lezione...
+
+  "Ma prima, è ESSENZIALE studiare il significato della moneta, la sua storia e l'impatto che ha avuto sul mondo nel corso degli anni"
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_12.mp3" length="12210885" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_12.mp3</guid>
+      <description>
+        E' mattino, e nel tempio i discepoli erano riuniti per ascoltare la lezione del gran maestro.
+  "Buongiorno ragazzi,Oggi vi parlerò dei bitcoin!" disse il maestro sorridendo.
+  Gli occhi dei giovani monaci iniziarono subito ad illuminarsi.
+  Erano mesi che il Gran Maestro non faceva altro che parlare di Filosofia e di Storia. Erano stufi di quella roba, volevano imparare qualcosa sul mondo attuale!
+  Nel villaggio tutti usavano i bitcoin, mentre loro non avevano nemmeno un cellulare! Finalmente, nessuno li prenderà più in giro dopo questa lezione...
+
+  "Ma prima, è ESSENZIALE studiare il significato della moneta, la sua storia e l'impatto che ha avuto sul mondo nel corso degli anni"
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 11 Dec 2016 18:00:00 +0000</pubDate>
+      <itunes:duration>00:25:26</itunes:duration>
+          <piazza:sommario><![CDATA[
+              function musicCredits(){
+                <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+              }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #13 - La Sfida</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+        Continuano le mini-puntate festive, termina il discorso sui bitcoin rimpiazzato da...
+
+        PODCAZZARI udite! Il podcast vi lancia una SFIDA! Riuscirete a diventare campioni, o rimarrete delle persone normali? Dieci giorni, dieci frasi, nessun premio.
+        Chiunque può vincere, ma pochi ci riescono...e voi?
+        E poi si parla di cappelli.
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_13.mp3" length="11232102" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_13.mp3</guid>
+      <description>
+        Continuano le mini-puntate festive, termina il discorso sui bitcoin rimpiazzato da...
+
+        PODCAZZARI udite! Il podcast vi lancia una SFIDA! Riuscirete a diventare campioni, o rimarrete delle persone normali? Dieci giorni, dieci frasi, nessun premio.
+        Chiunque può vincere, ma pochi ci riescono...e voi?
+        E poi si parla di cappelli.
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 18 Dec 2016 18:00:00 +0000</pubDate>
+      <itunes:duration>00:25:26</itunes:duration>
+          <piazza:sommario><![CDATA[
+              function musicCredits(){
+                <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+              }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #14 - La puntata della dolcezza</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+        Esticazzi degli auguri, DAMMI I REGALI!!
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_14.mp3" length="8056344" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_14.mp3</guid>
+      <description>
+        Esticazzi degli auguri, DAMMI I REGALI!!
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 25 Dec 2016 00:10:00 +0000</pubDate>
+      <itunes:duration>00:16:50</itunes:duration>
+          <piazza:sommario><![CDATA[
+            function musicCredits(){
+              <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+              <strong>Sigla</strong> gentilmente offerta da junior85 <a href="http://freemusicarchive.org/music/junior85/ITS_CHRISTMAS_II/Christmas_On_An_Island" target="_blank">(link)</a>
+              <strong>Sigla</strong> gentilmente offerta da Lee Rosevere <a href="http://freemusicarchive.org/music/Lee_Rosevere/A_Ukulele_For_Christmas/Lee_Rosevere_-_01_A_Ukulele_For_Christmas" target="_blank">(link)</a>
+              <strong>Campanellini</strong> gentilmente offerti da juskiddink <a href="https://www.freesound.org/people/juskiddink/sounds/110158/" target="_blank">(link)</a>
+            }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #15 - Quando Geralt non c'è Francesco edita</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+      Bene, anche a Capodanno c'è la puntata speciale finta che non piace a nessuno, ma comunque c'è! Godetevi la puntata mentre fate esplodere miniciccioli nelle tubature di casa per fare più rumore e auguri a tutti i podCazzari
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_15.mp3" length="10983169" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_15.mp3</guid>
+      <description>
+      Bene, anche a Capodanno c'è la puntata speciale finta che non piace a nessuno, ma comunque c'è! Godetevi la puntata mentre fate esplodere miniciccioli nelle tubature di casa per fare più rumore e auguri a tutti i podCazzari
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 01 Jan 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>00:22:53</itunes:duration>
+          <piazza:sommario><![CDATA[
+              function musicCredits(){
+                <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+              }
+            ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #16 - Io me lo fà fare</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+      Viaggi in giappone, la solitudine, telefilm, modellismo ma soprattutto l'inizio di una nuova ERA D'ORO!
+      I presentatori del più grande podcast iniziano un flusso di coscenza che può essere fermato solo dalla pigrizia di Francesco...
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_16.mp3" length="51002002" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_16.mp3</guid>
+      <description>
+      Viaggi in giappone, la solitudine, telefilm, modellismo ma soprattutto l'inizio di una nuova ERA D'ORO!
+      I presentatori del più grande podcast iniziano un flusso di coscenza che può essere fermato solo dalla pigrizia di Francesco...
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 08 Jan 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>01:10:53</itunes:duration>
+      <piazza:sommario><![CDATA[
+        function musicCredits(){
+          <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+        }
+        ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #17 - Non ci fermerete!</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+      Prima i server non funzionano, poi funzionano e pingano 2000ms, poi non funziona internet a Francesco e infine si ammala...EPPURE! La puntata esce lo stesso
+       #meditate gente #meditate
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_17.mp3" length="44102923" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_17.mp3</guid>
+      <description>
+      Prima i server non funzionano, poi funzionano e pingano 2000ms, poi non funziona internet a Francesco e infine si ammala...EPPURE! La puntata esce lo stesso
+       #meditate gente #meditate
+      La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </description>
+      <pubDate>Sun, 15 Jan 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>01:05:53</itunes:duration>
+      <piazza:sommario>><![CDATA[
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+        ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #18 - Abbandonati dalla tecnologia</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+  		Nemici di piazzaumarell, per questa volta avete vinto...ma sappiate che settimana prossima sarà tutto diverso, ci sarà una puntata vera e non si bloccherà tutto al terzo argomento.
+  Certo la cosa bella di questa puntata èche non c'è bisogno di mettere link nel sommario.
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_18.mp3" length="14368666" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_18.mp3</guid>
+      <description><![CDATA[
+        <p>Nemici di <strong>Piazzaumarell</strong>, per questa volta avete vinto...ma sappiate che settimana prossima sarà tutto diverso, ci sarà una puntata vera e non si bloccherà tutto al terzo argomento.
+          <i>Certo la cosa bella di questa puntata è che non c'è bisogno di mettere link nel sommario.</i>
+          La lista degli argomenti la trovi su <a href="http://piazzaumarell.it" target="_blank">(link)</a> ...se sei l'eletto
+        ]]>
+      </description>
+      <pubDate>Sun, 22 Jan 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>00:19:56</itunes:duration>
+      <piazza:sommario><![CDATA[
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+        ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #19 - A volte basta cambiare porta </title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+      Il podcast era rotto...per frotuna abbiamo la tecnologia per ricostruirlo! Con il nuovo siero magico che fa ricrescere i denti, Piazza Umarell è tornato più in forma che mai! Dove comprare questo siero dei miracoli? Semplice...su gear***t.com/Piazzaumarell
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_19.mp3" length="28272616" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_19.mp3</guid>
+      <description><![CDATA[
+        <p>Il podcast era rotto...per frotuna abbiamo la tecnologia per ricostruirlo! <p>
+        <p>Con il nuovo siero magico che fa ricrescere i denti, <strong>Piazza Umarell</strong> è tornato più in forma che mai!<br/>
+        Dove comprare questo siero dei miracoli?</p>
+        <p>Semplice...su <i>gearbe*t.com/Piazzaumarell</i></p>
+        La lista degli argomenti la trovi su <a href="http://piazzaumarell.it" target="_blank">(link)</a> ...se sei l'eletto
+        ]]>
+      </description>
+      <pubDate>Sun, 29 Jan 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>00:58:54</itunes:duration>
+      <itunes:keywords>Spazio,Steam,Scienza,Fotografia,Apps</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <piazza:sommario><![CDATA[
+          function Spazio(){
+            Nuove tute spaziali <a href="http://www.focus.it/scienza/spazio/le-nuove-tute-per-lo-spazio" target="_blank">(link)</a>
+          }
+          function LaRoba(){
+           Steam Link
+           Corso di fotografia di harvard <a href="http://leganerd.com/2017/01/16/corso-fotografia-harvard-disponibile-online/" target="_blank">(link)</a>
+           Libri da colorare, ora in APP! <a href="https://play.google.com/store/apps/details?id=com.apalon.mandala.coloring.book&hl=it" target="_blank">(link)</a>
+           Dentista 3.0 <a href="http://www.bbc.com/news/uk-38524566" target="_blank">(link)</a>
+           La ricerca artica <a href="http://arstechnica.com/science/2017/01/antarctic-science-station-will-empty-for-winter-due-to-ice-shelf-cracks/" target="_blank">(link)</a>
+           Gommoni per migranti <a href="http://www.linkiesta.it/it/article/2017/01/20/cerchi-un-gommone-per-il-traffico-di-migranti-i-cinesi-hanno-pronto-un/32945/?campaign_id=A100" target="_blank">(link)</a>
+           Cannone per fai da te <a href="http://makezine.com/2017/01/09/how-to-make-a-snowball-machine-gun-from-a-leaf-blow" target="_blank">(link)</a>
+          }
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+        ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #20 - Tartufi allo zenzero</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+      Vorrei tanto parlarvi di tartufi, novel cinesi e disastri nucleari...ma sto pezzo di zenzero è troppo buono!
+      La lista degli argomenti potresti trovarla su  http://piazzaumarell.it ...se sei l'eletto</itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_20.mp3" length="31949093" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_20.mp3</guid>
+      <description><![CDATA[
+        <p>Vorrei tanto parlarvi di tartufi, novel cinesi e disastri nucleari...ma sto pezzo di zenzero è troppo buono!</p>
+        La lista degli argomenti la trovi su  <a href="http://piazzaumarell.it" target="_blank">(link)</a> ...se sei l'eletto
+        ]]>
+
+      </description>
+      <pubDate>Sun, 05 Feb 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>01:06:54</itunes:duration>
+      <itunes:keywords>Morte,Truffa,Informatica,Spazio,Prepping</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <piazza:sommario><![CDATA[
+          function UltimeDalCielo(){
+            Il Cacciatore <a href="http://boston.cbslocal.com/2016/12/27/massachusetts-hunter-accidental-shooting/" target="_blank">(link)</a>
+            L'amico dei treni <a href="http://www.ny1.com/nyc/all-boroughs/transit/2016/12/3/a-man-is-dead-after-an-apparent-subway-surfing-incident-in-manhattan.html" target="_blank">(link)</a>
+          }
+          function CasaPonzi(){
+            La truffa del tartufo <a href="http://www.tartuficoltura.com/tartuficoltori-attenzione/" target="_blank">(link)</a>
+          }
+          function PerchèNonFanno(){
+            Il riferimento anagrafico universale
+          }
+          function LeRobe(){
+            Alt+Gr <a href="https://it.wikipedia.org/wiki/Alt_Gr" target="_blank">(link)</a>
+            Raspberry dell'Asus?  <a href="http://www.hwupgrade.it/news/sistemi/asus-annuncia-un-sistema-rivale-di-raspberry-pi-con-supporto-ai-video-4k_66800.html" target="_blank">(link)</a>
+            Gemelli di Nasa <a href="https://www.tomshw.it/un-anno-nello-spazio-modifica-il-dna-lo-studio-della-nasa-83036" target="_blank">(link)</a>
+            Progettare un allarme <a href="http://www.atlasobscura.com/articles/an-alarm-designer-on-how-to-annoy-people-in-the-most-effective-ways" target="_blank">(link)</a>
+            Prepping <a href="http://www.prepper.it/index.php" target="_blank">(link)</a>
+          }
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+        ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #21 - Un lampone per due</title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+        Era una normale sera d'estate, il sole era già sceso e il buio aveva ricoperto il cielo. I bambini stavano giocando a calcetto in cortile mentre i vecchi erano attorno a un tavolo sotto un lampione e giocavano a carte.
+         "FLASH!"
+        A un tratto l'oscurità sparì e il cielo si illuminò per un minuto. In quel minuto tutto era fermo, un evento naturale come quello non era mai successo infatti, era la prima volta nella storia.
+        Era l'avvento del LAMPONE!!!!
+        La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_21.mp3" length="35635129" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_21.mp3</guid>
+      <description>
+        <![CDATA[
+          <p>Era una normale sera d'estate, il sole era già sceso e il buio aveva ricoperto il cielo. I bambini stavano giocando a calcetto in cortile mentre i vecchi erano attorno a un tavolo sotto un lampione e giocavano a carte.
+           "FLASH!"</p>
+          <p>A un tratto l'oscurità sparì e il cielo si illuminò per un minuto. In quel minuto tutto era fermo, un evento naturale come quello non era mai successo infatti, era la prima volta nella storia.
+          Era l'avvento del LAMPONE!!!!</p>
+          La lista degli argomenti la trovi su  <a href="http://piazzaumarell.it" target="_blank">http://piazzaumarell.it</a> ...se sei l'eletto]]>
+      </description>
+      <pubDate>Sun, 26 Feb 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>01:14:05</itunes:duration>
+      <itunes:keywords>Kodi,Cemu,Spazio,Videogames</itunes:keywords>
+       <itunes:explicit>clean</itunes:explicit>
+      <piazza:sommario><![CDATA[
+        function robba(){
+          Kodi <a href="https://kodi.tv/download/" target="_blank">(link)</a>
+          Cemu <a href="http://cemu.info/" target="_blank">(link)</a>
+          I 7 nuovi pianeti   <a href="https://it.wikipedia.org/wiki/Pianeta_extrasolare" target="_blank">(link)</a>
+          L'unieuro sfigato
+          Dark souls
+          For honor e la valutazione  €/ore di gioco
+        }
+        function musicCredits(){
+          <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+        }
+        ]]></piazza:sommario>
+    </item>
+    <item>
+      <title>Piazza Umarell #22 - Russare per dimenticare </title>
+      <link>http://piazzaumarell.it</link>
+      <itunes:author>Francesco&amp;Geralt</itunes:author>
+      <itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>
+      <itunes:summary>
+        In questa puntata il grande dei Webtoon in formato Drama koreano, delle novel e di una morte incredibile!
+        Forse è meglio tornare a russare....
+        P.S. - "Eh Up and Down", dicevano gli antichi. Persino loro si confondevano tra markup e markdown quindi non rompetemi!
+        La lista degli argomenti la trovi su  http://piazzaumarell.it ...se sei l'eletto
+      </itunes:summary>
+      <itunes:image href="http://piazzaumarell.it/logo.jpg" />
+      <enclosure url="http://piazzaumarell.it/puntate/PiazzaUmarell_22.mp3" length="31060163" type="audio/mpeg" />
+      <guid>http://piazzaumarell.it/puntate/PiazzaUmarell_22.mp3</guid>
+      <description>
+        <![CDATA[
+          <p>In questa puntata il grande dei Webtoon in formato Drama koreano, delle novel e di una morte incredibile!</p>
+          <p> Forse è meglio tornare a russare.... </p>
+          <p>P.S. - "Eh Up and Down", dicevano gli antichi. Persino loro si confondevano tra markup e markdown quindi non rompetemi!</p>
+          La lista degli argomenti la trovi su <a href="http://piazzaumarell.it">piazzaumarell.it</a> ...se sei l'eletto
+        ]]>
+      </description>
+      <pubDate>Sun, 05 Mar 2017 00:10:00 +0000</pubDate>
+      <itunes:duration>01:14:05</itunes:duration>
+      <itunes:keywords>Miniature,Webtoon,Novel,Morte,Raspberry,Giochi da tavolo,Musashi</itunes:keywords>
+	     <itunes:explicit>clean</itunes:explicit>
+      <piazza:sommario><![CDATA[
+        function Progetty(){
+            La Pagoda!
+            Il millennium falcon
+          }
+          function BenedettaAsia(){
+            /* Webtoon - Serie TV */
+            Il suono del cuore <a href="http://www.webtoons.com/en/comedy/the-sound-of-your-heart/list?title_no=269" target="_blank">(link)</a>
+            /* Novels */
+            Martial God Asura <a href="http://www.wuxiaworld.com/mga-index/" target="_blank">(link)</a>
+            I shall seal the heavens <a href="http://www.wuxiaworld.com/issth-index/" target="_blank">(link)</a>
+          }
+          function UltimeDalCielo(){
+            Mi è caduta una cosa... <a href="http://abcnews.go.com/US/man-killed-raptor-roller-coaster-cedar-point-park/story?id=33072654" target="_blank">(link)</a>
+          }
+          function LaRoba(){
+            Raspberry ZeroW <a href="https://www.raspberrypi.org/blog/raspberry-pi-zero-w-joins-family/" target="_blank">(link)</a>
+            Giochi da tavolo mesopotamia <a href="http://www.pergioco.net/Giochi/GiochiDiTavoliere/Ur/Ur.htm" target="_blank">(link)</a>
+            Musashi <a href="https://it.wikipedia.org/wiki/Musashi">(link)</a>
+          }
+          function musicCredits(){
+            <strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>
+          }
+      ]]></piazza:sommario>
+    </item>
+    </channel>
+    </rss>

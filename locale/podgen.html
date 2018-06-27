@@ -1,0 +1,108 @@
+
+<html>
+<head>
+  <title>iTunes RSS Item Generator</title>
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"
+    integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="text/javascript">
+
+function generate() {
+  var $currentDate = new Date();
+  var url = "http://piazzaumarell.it/puntate/PiazzaUmarell_" + $("#numero").val()+ ".mp3";
+  $output = "";
+  $output = $output + "<item>\r\n";
+  $output = $output + "\t<title>Piazza Umarell #"+ $("#numero").val() + " - " + $("#title").val() + "</title>\r\n";
+  $output = $output + "\t<link>http://piazzaumarell.it</link>\r\n";
+  $output = $output + '\t<itunes:author>Francesco&amp;Geralt</itunes:author>\r\n';
+  $output = $output + '\t<itunes:subtitle>Il podcast per pezzi di Nerd</itunes:subtitle>\r\n';
+  $output = $output + "\t<itunes:summary>" + $("#sommario").val() + "</itunes:summary>\r\n";
+  $output = $output + '\t<itunes:image href="http://piazzaumarell.it/logo.jpg" />\r\n';
+  $output = $output + '\t<enclosure url="'+ url+'" length="'+$("#length").value+'" type="audio/mpeg"/>\r\n';
+  $output = $output + "\t<guid>" + url+"</guid>\r\n";
+  $output = $output + "\t<description>" + $("#descrizione").val() + "</description>\r\n";
+  $output = $output + "\t<pubDate>" + $currentDate.toGMTString() + "</pubDate>\r\n";
+  $output = $output + "\t<itunes:duration>" + $("#duration").val() + "</itunes:duration>\r\n";
+  $output = $output + "\t<itunes:keywords>" + $("#keywords").val() + "</itunes:keywords>\r\n";
+  $output = $output + "\t<itunes:explicit>clean</itunes:explicit>\r\n";
+  $output = $output + '\t<piazza:sommario><![CDATA[  function musicCredits(){<strong>Sigla</strong> gentilmente offerta da Snowflake <a href="http://tunetrack.net/snowflake/" target="_blank">(link)</a>    }]]></piazza:sommario>\r\n';
+  $output = $output + "</item>\r\n";
+  $("#item_output").val($output);
+}
+  </script>
+</head>
+<body>
+  <div class="col-xs-5 col-md-5">
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="numero">Numero e Titolo</label>
+        <input type="text" class="form-control" id="numero" placeholder="numero senza #">
+        <input type="text" class="form-control" id="titolo" placeholder="solo titolo">
+      </div>
+    </form>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="length">File Size</label>
+        <input type="text" class="form-control" id="length" placeholder="in byte">
+      </div>
+      <div class="form-group">
+        <label for="explicit">Explicit</label>
+        <input type="text" class="form-control" id="explicit" placeholder="YES/NO/CLEAN" value="clean">
+      </div>
+      <div class="form-group" >
+        <label for="duration">Durata</label>
+        <input type="text" class="form-control" id="duration" placeholder="hh:mm:ss" value="01:00:00">
+      </div>
+    </form>
+    <form>
+      <div class="form-group">
+        <label for="keywords">Keywords</label>
+        <input type="text" class="form-control" id="keywords" placeholder="Separate da virgole">
+      </div>
+
+      <div class="form-group">
+        <label for="sommario">Sommario </label>
+        <textarea class="form-control" id="sommario" rows="5" placeholder="(descrizione itunes, senza html)"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="descrizione">Descrizione </label>
+        <textarea class="form-control" rows="5" id="descrizione" placeholder="(descrizione generica, con html)"><![CDATA[
+
+          ]]></textarea>
+      </div>
+    <button type="button" class="btn btn-default" onclick="generate()">Genera</button>
+  </form>
+  <div class="form-group">
+    <label for="item_output">Testo generato </label>
+    <textarea class="form-control" id="item_output" rows="10" cols="80"></textarea>
+  </div>
+</div>
+
+<script>
+function makeLink()
+{
+  testo = $("#testo").val();
+  linko = $("#linko").val();
+  txt   = '<a href="'+testo+'" target="_blank">'+linko+'</a>\n';
+  var box = $("#links");
+  box.val(box.val() + txt);
+}
+function cancellaLinks(){
+  $("#links").val('');
+}
+</script>
+<div class="col-xs-5 col-md-5">
+  <p>Linkatore</p>
+  <form>
+    <input class="form-control" type="text" id="testo" maxlength="256" placeholder="inserisci l'URL" value="" />
+    <input class="form-control" type="text" id="linko" maxlength="256" value="(link)" />
+    <input class="form-control" type="button" value="Generate" onClick="makeLink();" /><br/>
+    <input class="form-control" type="button" value="Clear" onClick="cancellaLinks();" /><br/>
+    <textarea id="links" rows="20" cols="80"></textarea>
+  </form>
+</div>
+</body>
+</html>
