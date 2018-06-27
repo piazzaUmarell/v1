@@ -166,7 +166,7 @@ function get_episode($id) {return $id - get_first(); }
                     <?php echo $sommario ?>
                   </code>
       					</pre>
-               </div> <? } ?>
+               </div> <?php } ?>
             </div>
 
           </div>
