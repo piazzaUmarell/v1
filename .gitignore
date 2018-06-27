@@ -1,0 +1,6 @@
+*/**/examples
+*/**/docs
+*.log
+*/**/.DS_STORE
+*/**/LICENSE
+*/**/README.md
