@@ -47,7 +47,7 @@ function get_episode($id) {return $id - get_first(); }
     }
   }
   function link_puntata($episode,$txt)  {
-    echo "<a href=https://www.piazzaumarell.it/puntata/".get_id($episode).">".$txt."</a>";
+    echo "<a href=/puntata/".get_id($episode).">".$txt."</a>";
   }
 ?>
 <html lang="it">
