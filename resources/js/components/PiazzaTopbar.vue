@@ -1,7 +1,9 @@
 <template>
     <header class="bg-blue py-2 px-4 shadow flex flex-row flex-no-wrap justify-between items-baseline fixed pin-t pin-l pin-r z-10">
         <div class="flex">
-            <h1 class="text-3xl text-white font-light">Piazza Umarell</h1>
+            <h1 class="text-3xl text-white font-light">
+                <slot name="title"></slot>
+            </h1>
         </div>
         <div v-show="false" class="flex flex-row flex-no-wrap justify-end">
             <ul class="list-reset horizontal-list">

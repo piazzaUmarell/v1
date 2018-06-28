@@ -18,7 +18,8 @@ class Route
 
     protected static function prepareDefinition(string $definition)
     {
-        return !empty($trimmed) ? ('/' . preg_quote($trimmed) . '/') : '';
+        $trimmed = trim($definition, '/');
+        return !empty($trimmed) ? ('/' . preg_quote($trimmed, '/') . '/') : '';
     }
 
     public function name(string $name)

@@ -30,4 +30,11 @@ class TemplateEngine
     {
         $this->data = [];
     }
+
+    public function share(array $data)
+    {
+        foreach ($data as $key => $value) {
+            $this->data[$key] = $value;
+        }
+    }
 }

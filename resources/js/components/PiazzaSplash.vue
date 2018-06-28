@@ -1,9 +1,15 @@
 <template>
     <div class="w-screen h-screen bg-blue flex flex-col justify-center align-center text-center">
         <div class="text-white leading-tight">
-            <h1 class="text-5xl font-semibold">Piazza Umarell</h1>
-            <h2 class="text-2xl font-normal">Il podcast per pezzi di nerd.</h2>
-            <p class="text-lg font-light leading-loose">Prossimo episodio... Domenica! Tutte le domeniche!</p>
+            <h1 class="text-5xl font-semibold">
+                <slot name="title"></slot>
+            </h1>
+            <h2 class="text-2xl font-normal">
+                <slot name="description"></slot>
+            </h2>
+            <p class="text-lg font-light leading-loose">
+                <slot name="caption"></slot>
+            </p>
         </div>
         <div>
             <font-awesome-icon

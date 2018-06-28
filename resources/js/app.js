@@ -7,6 +7,8 @@ Vue.use(VueScrollTo);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('piazza-home', require('./components/PiazzaHome.vue'));
 
+Vue.prototype.$ENV = ENV;
+
 let app = new Vue({
     el: '#root',
 })

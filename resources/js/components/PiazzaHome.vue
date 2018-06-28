@@ -1,7 +1,22 @@
 <template>
     <main>
-        <piazza-topbar id="topbar" />
-        <piazza-splash id="splash" scroll-to="#latest" />
+        <piazza-topbar id="topbar">
+            <template slot="title">
+                {{ this.$ENV.podcast_title }}
+            </template>
+        </piazza-topbar>
+
+        <piazza-splash id="splash">
+            <template slot="title">
+                {{ this.$ENV.podcast_title }}
+            </template>
+            <template slot="description">
+                {{ this.$ENV.podcast_description }}
+            </template>
+            <template slot="caption">
+                {{ this.$ENV.podcast_caption }}
+            </template>
+        </piazza-splash>
         <piazza-latest id="latest" />
         <piazza-playlist id="playlist" />
     </main>

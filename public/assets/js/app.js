@@ -2240,6 +2240,8 @@ Vue.use(VueScrollTo);
 Vue.component('font-awesome-icon', __WEBPACK_IMPORTED_MODULE_0__fortawesome_vue_fontawesome__["FontAwesomeIcon"]);
 Vue.component('piazza-home', __webpack_require__(13));
 
+Vue.prototype.$ENV = ENV;
+
 var app = new Vue({
     el: '#root'
 });
@@ -23197,6 +23199,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -23280,6 +23297,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -23298,7 +23317,14 @@ var render = function() {
         "bg-blue py-2 px-4 shadow flex flex-row flex-no-wrap justify-between items-baseline fixed pin-t pin-l pin-r z-10"
     },
     [
-      _vm._m(0),
+      _c("div", { staticClass: "flex" }, [
+        _c(
+          "h1",
+          { staticClass: "text-3xl text-white font-light" },
+          [_vm._t("title")],
+          2
+        )
+      ]),
       _vm._v(" "),
       _c(
         "div",
@@ -23313,22 +23339,12 @@ var render = function() {
           ],
           staticClass: "flex flex-row flex-no-wrap justify-end"
         },
-        [_vm._m(1)]
+        [_vm._m(0)]
       )
     ]
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "flex" }, [
-      _c("h1", { staticClass: "text-3xl text-white font-light" }, [
-        _vm._v("Piazza Umarell")
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -23424,6 +23440,12 @@ module.exports = Component.exports
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fortawesome_fontawesome_svg_core__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fortawesome_free_solid_svg_icons__ = __webpack_require__(20);
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -25721,7 +25743,28 @@ var render = function() {
         "w-screen h-screen bg-blue flex flex-col justify-center align-center text-center"
     },
     [
-      _vm._m(0),
+      _c("div", { staticClass: "text-white leading-tight" }, [
+        _c(
+          "h1",
+          { staticClass: "text-5xl font-semibold" },
+          [_vm._t("title")],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "h2",
+          { staticClass: "text-2xl font-normal" },
+          [_vm._t("description")],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "p",
+          { staticClass: "text-lg font-light leading-loose" },
+          [_vm._t("caption")],
+          2
+        )
+      ]),
       _vm._v(" "),
       _c(
         "div",
@@ -25746,26 +25789,7 @@ var render = function() {
     ]
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "text-white leading-tight" }, [
-      _c("h1", { staticClass: "text-5xl font-semibold" }, [
-        _vm._v("Piazza Umarell")
-      ]),
-      _vm._v(" "),
-      _c("h2", { staticClass: "text-2xl font-normal" }, [
-        _vm._v("Il podcast per pezzi di nerd.")
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "text-lg font-light leading-loose" }, [
-        _vm._v("Prossimo episodio... Domenica! Tutte le domeniche!")
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -26309,53 +26333,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -26372,7 +26349,7 @@ var render = function() {
       _vm._m(0),
       _vm._v(" "),
       _c("section", { staticClass: "flex flex-col-reverse md:flex-row" }, [
-        _vm._m(1),
+        _c("article", { staticClass: "w-full md:w-3/5 mt-4" }),
         _vm._v(" "),
         _c("section", { staticClass: "w-full md:w-2/5 mt-4 mt-4" }, [
           _c(
@@ -26385,8 +26362,8 @@ var render = function() {
             [
               _c("source", {
                 attrs: {
-                  src: "https://piazzaumarell.it/puntate/PiazzaUmarell_90.mp3",
-                  type: "audio/mp3"
+                  type: "audio/mp3",
+                  src: "https://piazzaumarell.it/puntate/PiazzaUmarell_90.mp3"
                 }
               })
             ]
@@ -26402,143 +26379,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "flex flex-row justify-between" }, [
-      _c("h2", { staticClass: "text-4xl text-center sticky" }, [
-        _vm._v("Crossfit in pdf")
-      ]),
+      _c("h2", { staticClass: "text-4xl text-center sticky" }),
       _vm._v(" "),
-      _c("span", { staticClass: "text-3xl" }, [_vm._v("#90")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("article", { staticClass: "w-full md:w-3/5 mt-4" }, [
-      _vm._v("\n                Pulizia Contatti"),
-      _c("br"),
-      _vm._v(
-        "\n                Geralt, ispirato da Anna decide di liberarsi dei social da un momento all’altro."
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Perchè tutti ci limitiamo dei social e poi non ce ne riusciamo a staccare?"
-      ),
-      _c("br"),
-      _vm._v("\n                Come si vive senza?"),
-      _c("br"),
-      _vm._v("\n                L’energia e la concentrazione ritrovata"),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v("\n                Gabriele Momoa"),
-      _c("br"),
-      _vm._v(
-        "\n                Crossfit + dieta fai da te = dimagrire 5kg in 3 mesi. La mia sfida personale che sto portando avanti."
-      ),
-      _c("br"),
-      _vm._v("\n                Che cos’è il crossfit?"),
-      _c("br"),
-      _vm._v(
-        "\n                La dieta fai da te include pizza e birra? Potrebbe interessarmi"
-      ),
-      _c("br"),
-      _vm._v("\n                Dai che 5Kg non sono nulla!"),
-      _c("br"),
-      _vm._v(
-        "\n                Rant contro le nutrizioniste a cui resto cmq affezionato."
-      ),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v(
-        "\n                [STACCO] -- Fai così: la nuova rubrica di Piazza Umarell (i contenuti suggeriti dagli ospiti)"
-      ),
-      _c("br"),
-      _vm._v("\n                Geralt: (link)"),
-      _c("br"),
-      _vm._v("\n                Francesco:(link)"),
-      _c("br"),
-      _vm._v(
-        "\n                Nicola: (link)  Canale youtube di Kira Margann (link)"
-      ),
-      _c("br"),
-      _vm._v(
-        '\n                Gabriele:Sci-Fi Short Film "Genghis Khan Conquers the Moon"  (link)'
-      ),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v("\n                Nicola Urbinati - Il lavoro con i big data"),
-      _c("br"),
-      _vm._v(
-        "\n                Quando hai un lavoro figo e ti dici: perchè non farne anche un’altro?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Cosa succede con i big data? Sono sicuramente una risorsa per il futuro, ma rappresentano anche una minaccia?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Riuscirà un software a conoscerci meglio di noi stessi?"
-      ),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v("\n                Nicola Urbinati - Il lavoro con i GDR"),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v("\n                Dreamlord Press (link) (link)"),
-      _c("br"),
-      _vm._v(
-        "\n                Il tuo secondo lavoro: editor o editore? Producer o publisher? Distributore? Cominciamo a capire come nascono i manuali che ci fanno sognare."
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Il mistero dell’aroma della 25edition di D&D. Le partite al culatello di zibello."
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Nicola, cosa fai nel campo dei GDR oltre a rollare dadi?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Come fai ad individuare il IP (si dirà così?) più promettenti? Devi giocarli tutti?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Ci sono ancora tanti titoli lì fuori che non sono tradotti in italiano ma vale davvero la pena giocare?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Da qualche tempo a questa parte abbiamo visto aumentare l’offerta di GDR in Italia e tanti titoli sono stati tradotti. Comincia ad avere senso la frase “lo aspetto in italiano”? Oppure giocare in inglese rimane fondamentale?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Una curiosità: una volta (immagino) firmato il contratto, come ti arriva il gioco da tradurre e sistemare? Che software usano gli autori?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Da editore ti è capitato di dover intervenire pesantemente sulle illustrazioni e sugli arricchimenti grafici?\n                Sono l’unico che vorrebbe un’edizione di D&D in pelle e borchie metalliche?"
-      ),
-      _c("br"),
-      _vm._v(
-        "\n                Quanto conta la forma e quanto il contenuto nel settore GDR? (edizioni fighe con illustrazioni a colori VS “faccio quello che posso” con le clip art)"
-      ),
-      _c("br"),
-      _vm._v(" "),
-      _c("br"),
-      _vm._v("\n                Una parola alla settimana :"),
-      _c("br"),
-      _vm._v(
-        "\n                Dovrete utilizzare almeno una volta la parola Fortore nelle vostre frasi"
-      ),
-      _c("br"),
-      _vm._v("\n                (link)"),
-      _c("br"),
-      _vm._v("\n                Gabriele invece è in fissa con Eteròclito"),
-      _c("br"),
-      _vm._v("\n                (link)\n            ")
+      _c("span", { staticClass: "text-3xl" })
     ])
   }
 ]
@@ -26562,9 +26405,47 @@ var render = function() {
   return _c(
     "main",
     [
-      _c("piazza-topbar", { attrs: { id: "topbar" } }),
+      _c(
+        "piazza-topbar",
+        { attrs: { id: "topbar" } },
+        [
+          _c("template", { slot: "title" }, [
+            _vm._v(
+              "\n            " + _vm._s(this.$ENV.podcast_title) + "\n        "
+            )
+          ])
+        ],
+        2
+      ),
       _vm._v(" "),
-      _c("piazza-splash", { attrs: { id: "splash", "scroll-to": "#latest" } }),
+      _c(
+        "piazza-splash",
+        { attrs: { id: "splash" } },
+        [
+          _c("template", { slot: "title" }, [
+            _vm._v(
+              "\n            " + _vm._s(this.$ENV.podcast_title) + "\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("template", { slot: "description" }, [
+            _vm._v(
+              "\n            " +
+                _vm._s(this.$ENV.podcast_description) +
+                "\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c("template", { slot: "caption" }, [
+            _vm._v(
+              "\n            " +
+                _vm._s(this.$ENV.podcast_caption) +
+                "\n        "
+            )
+          ])
+        ],
+        2
+      ),
       _vm._v(" "),
       _c("piazza-latest", { attrs: { id: "latest" } }),
       _vm._v(" "),

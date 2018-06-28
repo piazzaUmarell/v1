@@ -1,5 +1,16 @@
 {% extends "./layouts/master.html.twig" %}
 
+{% block head %}
+    {{ parent() }}
+    <script>
+        var ENV = {
+            podcast_title : "{{ podcast_title }}",
+            podcast_description : "{{ podcast_description }}",
+            podcast_caption : "{{ podcast_caption }}",
+        };
+    </script>
+{% endblock %}
+
 {% block content %}
     <piazza-home></piazza-home>
 {% endblock %}
