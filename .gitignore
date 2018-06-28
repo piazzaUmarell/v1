@@ -4,3 +4,8 @@
 */**/.DS_STORE
 */**/LICENSE
 */**/README.md
+node_modules/
+.DS_STORE
+vendor
+package-lock.json
+composer.lock

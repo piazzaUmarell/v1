@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans');
+
+@tailwind preflight;
+@tailwind components;
+
+@import "~animate.css/animate.min.css";
+@import "~mediaelement/build/mediaelementplayer.min.css";
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bree Serif", sans-serif;
+}
+
+.horizontal-list{
+    @apply .flex .flex-row .flex-no-wrap .justify-between
+}
+
+.horizontal-list {
+    > *:not(:first-child) {
+        @apply pl-2;
+    }
+}
+
+@tailwind utilities;

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <title>
+                {% if episodeTitle is defined %}
+                    {{ episodeTitle }} -
+                {% endif %}
+                Piazza umarell
+            </title>
+            <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+        {% endblock %}
+    </head>
+    <body>
+        <div id="root">
+            {% block content %}
+            {% endblock %}
+        </div>
+        {% block foot %}
+            <script src="/assets/js/app.js"></script>
+        {% endblock %}
+    </body>
+</html>

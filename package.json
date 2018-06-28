@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.1",
+    "axios": "^0.18",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^2.1.11",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.9.0",
+    "stylelint": "^9.3.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "vue": "^2.5.7"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0",
+    "@fortawesome/vue-fontawesome": "^0.1.0",
+    "animate.css": "^3.6.1",
+    "font-awesome": "^4.7.0",
+    "i": "^0.3.6",
+    "laravel-mix-tailwind": "^0.1.0",
+    "material-icons": "^0.2.3",
+    "materialize-css": "^0.100.2",
+    "mediaelement": "^4.2.9",
+    "npm": "^6.1.0",
+    "npm-font-open-sans": "^1.1.0",
+    "tailwindcss": "^0.6.1",
+    "typeface-bree-serif": "0.0.54",
+    "vue-scrollto": "^2.11.0"
+  }
+}

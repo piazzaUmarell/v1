@@ -1,0 +1,11 @@
+{
+    "autoload" : {
+        "psr-4" : {
+            "Core\\" : "Core",
+            "Controller\\" : "Controller"
+        }
+    },
+    "require": {
+        "twig/twig": "^2.4"
+    }
+}
