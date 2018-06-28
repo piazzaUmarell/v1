@@ -2,7 +2,8 @@
     "autoload" : {
         "psr-4" : {
             "Core\\" : "Core",
-            "Controller\\" : "Controller"
+            "Controller\\" : "Controller",
+            "Repositories\\" : "Repositories"
         }
     },
     "require": {

@@ -9,6 +9,20 @@
                 Piazza umarell
             </title>
             <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+
+            <script>
+                var ENV = {
+                    podcast_title : "{{ podcast_title }}",
+                    podcast_description : "{{ podcast_description }}",
+                    podcast_caption : "{{ podcast_caption }}",
+
+                    routes : {
+                        episodes : {
+                            latest : '/episodes/latest'
+                        }
+                    }
+                };
+            </script>
         {% endblock %}
     </head>
     <body>
