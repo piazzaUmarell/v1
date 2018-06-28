@@ -26335,6 +26335,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 
 
@@ -26374,10 +26377,11 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("section", { staticClass: "flex flex-col-reverse md:flex-row" }, [
-        _c("article", {
-          staticClass: "w-full md:w-3/5 mt-4",
-          domProps: { innerHTML: _vm._s(this.episode.summary) }
-        }),
+        _c("article", { staticClass: "w-full md:w-3/5 mt-4" }, [
+          _c("h3", { staticClass: "md:invisible" }, [_vm._v("Sommario")]),
+          _vm._v(" "),
+          _c("p", { domProps: { innerHTML: _vm._s(this.episode.summary) } })
+        ]),
         _vm._v(" "),
         _c("section", { staticClass: "w-full md:w-2/5 mt-4 mt-4" }, [
           _c(

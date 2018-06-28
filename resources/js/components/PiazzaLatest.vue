@@ -6,7 +6,10 @@
                 <span class="text-3xl">#{{ this.episode.number }}</span>
             </div>
             <section class="flex flex-col-reverse md:flex-row">
-                <article class="w-full md:w-3/5 mt-4" v-html="this.episode.summary"></article>
+                <article class="w-full md:w-3/5 mt-4">
+                    <h3 class="md:invisible">Sommario</h3>
+                    <p v-html="this.episode.summary"></p>
+                </article>
                 <section class="w-full md:w-2/5 mt-4 mt-4">
                     <audio ref="player" controls class="mejs__player w-full">
                         <source type="audio/mp3" :src="this.episode.url">
