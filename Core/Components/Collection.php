@@ -20,14 +20,18 @@ class Collection implements IteratorAggregate
         return new ArrayIterator($this->collection);
     }
 
-    public function add($collection)
+    public function add($collection, $label = null)
     {
         if (!is_iterable($collection)) {
-            $collection = $collection ? [$collection] : [];
+            $collection = $label ? [$label => $collection] : ($collection ? [$collection] : []);
         }
 
-        foreach ($collection as $value) {
-            $this->collection[] = $value;
+        foreach ($collection as $key => $value) {
+            if ($key) {
+                $this->collection[$key] = $value;
+            } else {
+                $this->collection[] = $value;
+            }
         }
     }
 

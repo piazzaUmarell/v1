@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="bg-grey-lightest">
         <piazza-topbar id="topbar">
             <template slot="title">
                 {{ this.$ENV.podcast_title }}

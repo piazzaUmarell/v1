@@ -14,6 +14,6 @@ class Dispatcher
     {
         list($controller, $action) = explode('@', $route->getAction());
         $controller = "Controller\\$controller";
-        $controller::act($action);
+        $controller::act($action, $route->getParams());
     }
 }

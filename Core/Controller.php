@@ -3,6 +3,8 @@
 namespace Core;
 
 use ReflectionClass;
+use Core\Components\Collection;
+use Core\Controller\Exceptions\InvalidActionException;
 
 abstract class Controller
 {
@@ -13,7 +15,7 @@ abstract class Controller
         $this->view = TemplateEngine::getInstance();
     }
 
-    public static function act(string $action)
+    public static function act(string $action, Collection $parameters)
     {
         $class = static::class;
         if (!method_exists($class, $action)) {
@@ -21,7 +23,10 @@ abstract class Controller
         }
         $controller = new static;
         $controller->preDispatch();
-        $result = $controller->$action();
+        $result = call_user_func_array(
+            [$controller, $action],
+            $parameters->toArray()
+        );
         $controller->render($action, $result);
         $controller->postDispatch();
     }
