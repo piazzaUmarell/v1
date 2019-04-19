@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans');
-
 @tailwind preflight;
 @tailwind components;
 
-@import "~animate.css/animate.min.css";
-@import "~mediaelement/build/mediaelementplayer.min.css";
-
-* {
-    font-family: "Open Sans", sans-serif;
+html, body, #app, main {
+  margin:0;
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Bree Serif", sans-serif;
+.title {
+  @apply text-white text-5xl;
+  font-family: "Pridi", serif;
 }
 
-.horizontal-list{
-    @apply .flex .flex-row .flex-no-wrap .justify-between
+.subtitle {
+  @apply text-white text-4xl;
+  font-family: "Cormorant Infant", serif;
 }
 
-.horizontal-list {
-    > *:not(:first-child) {
-        @apply pl-2;
-    }
+.content {
+  @apply text-white text-lg;
+  font-family: "Heebo", serif;
 }
 
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Heebo|Pridi|Cormorant+Infant');

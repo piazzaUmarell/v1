@@ -14,17 +14,17 @@ View the full documentation at https://tailwindcss.com.
 
 
 |-------------------------------------------------------------------------------
-| The default config
+| The pages config
 |-------------------------------------------------------------------------------
 |
-| This variable contains the default Tailwind config. You don't have
+| This variable contains the pages Tailwind config. You don't have
 | to use it, but it can sometimes be helpful to have available. For
 | example, you may choose to merge your custom configuration
 | values with some of the Tailwind defaults.
 |
 */
 
-// let defaultConfig = require('tailwindcss/defaultConfig')()
+let defaultConfig = require('tailwindcss/defaultConfig')()
 
 
 /*
@@ -37,7 +37,7 @@ View the full documentation at https://tailwindcss.com.
 | for prototyping, but don't hesitate to change them for your project. You
 | own these colors, nothing will break if you change everything about them.
 |
-| We've used literal color names ("red", "blue", etc.) for the default
+| We've used literal color names ("red", "blue", etc.) for the pages
 | palette, but if you'd rather use functional names like "primary" and
 | "secondary", or even a numeric scale like "100" and "200", go for it.
 |
@@ -153,7 +153,7 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Screens in Tailwind are translated to CSS media queries. They define the
-  | responsive breakpoints for your project. By default Tailwind takes a
+  | responsive breakpoints for your project. By pages Tailwind takes a
   | "mobile first" approach, where each screen size represents a minimum
   | viewport width. Feel free to have as few or as many screens as you
   | want, naming them in whatever way you'd prefer for your project.
@@ -184,11 +184,12 @@ module.exports = {
   | If you're using custom fonts you'll need to import them prior to
   | defining them here.
   |
-  | By default we provide a native font stack that works remarkably well on
-  | any device or OS you're using, since it just uses the default fonts
+  | By pages we provide a native font stack that works remarkably well on
+  | any device or OS you're using, since it just uses the pages fonts
   | provided by the platform.
   |
   | Class name: .font-{name}
+  | CSS property: font-family
   |
   */
 
@@ -226,7 +227,7 @@ module.exports = {
       'Liberation Mono',
       'Courier New',
       'monospace',
-    ]
+    ],
   },
 
 
@@ -236,16 +237,17 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your text sizes. Name these in whatever way
-  | makes the most sense to you. We use size names by default, but
+  | makes the most sense to you. We use size names by pages, but
   | you're welcome to use a numeric scale or even something else
   | entirely.
   |
-  | By default Tailwind uses the "rem" unit type for most measurements.
+  | By pages Tailwind uses the "rem" unit type for most measurements.
   | This allows you to set a root font size which all other sizes are
   | then based on. That said, you are free to use whatever units you
   | prefer, be it rems, ems, pixels or other.
   |
   | Class name: .text-{size}
+  | CSS property: font-size
   |
   */
 
@@ -273,6 +275,7 @@ module.exports = {
   | all of these, so we recommend removing those you don't need.
   |
   | Class name: .font-{weight}
+  | CSS property: font-weight
   |
   */
 
@@ -298,6 +301,7 @@ module.exports = {
   | them in Tailwind, leadings.
   |
   | Class name: .leading-{size}
+  | CSS property: line-height
   |
   */
 
@@ -318,6 +322,7 @@ module.exports = {
   | them in Tailwind, tracking.
   |
   | Class name: .tracking-{size}
+  | CSS property: letter-spacing
   |
   */
 
@@ -333,11 +338,12 @@ module.exports = {
   | Text colors                         https://tailwindcss.com/docs/text-color
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your text colors. By default these use the
+  | Here is where you define your text colors. By pages these use the
   | color palette we defined above, however you're welcome to set these
   | independently if that makes sense for your project.
   |
   | Class name: .text-{color}
+  | CSS property: color
   |
   */
 
@@ -349,11 +355,12 @@ module.exports = {
   | Background colors             https://tailwindcss.com/docs/background-color
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your background colors. By default these use
+  | Here is where you define your background colors. By pages these use
   | the color palette we defined above, however you're welcome to set
   | these independently if that makes sense for your project.
   |
   | Class name: .bg-{color}
+  | CSS property: background-color
   |
   */
 
@@ -370,6 +377,7 @@ module.exports = {
   | that are specific to your project here as well.
   |
   | Class name: .bg-{size}
+  | CSS property: background-size
   |
   */
 
@@ -386,10 +394,11 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your border widths. Take note that border
-  | widths require a special "default" value set as well. This is the
+  | widths require a special "pages" value set as well. This is the
   | width that will be used when you do not specify a border width.
   |
   | Class name: .border{-side?}{-width?}
+  | CSS property: border-width
   |
   */
 
@@ -407,15 +416,16 @@ module.exports = {
   | Border colors                     https://tailwindcss.com/docs/border-color
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your border colors. By default these use the
+  | Here is where you define your border colors. By pages these use the
   | color palette we defined above, however you're welcome to set these
   | independently if that makes sense for your project.
   |
-  | Take note that border colors require a special "default" value set
+  | Take note that border colors require a special "pages" value set
   | as well. This is the color that will be used when you do not
   | specify a border color.
   |
   | Class name: .border-{color}
+  | CSS property: border-color
   |
   */
 
@@ -427,7 +437,7 @@ module.exports = {
   | Border radius                    https://tailwindcss.com/docs/border-radius
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your border radius values. If a `default` radius
+  | Here is where you define your border radius values. If a `pages` radius
   | is provided, it will be made available as the non-suffixed `.rounded`
   | utility.
   |
@@ -435,6 +445,7 @@ module.exports = {
   | a good idea to put it first so other values are able to override it.
   |
   | Class name: .rounded{-side?}{-size?}
+  | CSS property: border-radius
   |
   */
 
@@ -453,7 +464,7 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your width utility sizes. These can be
-  | percentage based, pixels, rems, or any other units. By default
+  | percentage based, pixels, rems, or any other units. By pages
   | we provide a sensible rem based numeric scale, a percentage
   | based fraction scale, plus some other common use-cases. You
   | can, of course, modify these values as needed.
@@ -464,6 +475,7 @@ module.exports = {
   | awesome classes like .w-2/3.
   |
   | Class name: .w-{size}
+  | CSS property: width
   |
   */
 
@@ -496,7 +508,7 @@ module.exports = {
     '1/6': '16.66667%',
     '5/6': '83.33333%',
     'full': '100%',
-    'screen': '100vw'
+    'screen': '100vw',
   },
 
 
@@ -506,12 +518,13 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your height utility sizes. These can be
-  | percentage based, pixels, rems, or any other units. By default
+  | percentage based, pixels, rems, or any other units. By pages
   | we provide a sensible rem based numeric scale plus some other
   | common use-cases. You can, of course, modify these values as
   | needed.
   |
   | Class name: .h-{size}
+  | CSS property: height
   |
   */
 
@@ -533,7 +546,7 @@ module.exports = {
     '48': '12rem',
     '64': '16rem',
     'full': '100%',
-    'screen': '100vh'
+    'screen': '100vh',
   },
 
 
@@ -544,10 +557,11 @@ module.exports = {
   |
   | Here is where you define your minimum width utility sizes. These can
   | be percentage based, pixels, rems, or any other units. We provide a
-  | couple common use-cases by default. You can, of course, modify
+  | couple common use-cases by pages. You can, of course, modify
   | these values as needed.
   |
   | Class name: .min-w-{size}
+  | CSS property: min-width
   |
   */
 
@@ -564,17 +578,18 @@ module.exports = {
   |
   | Here is where you define your minimum height utility sizes. These can
   | be percentage based, pixels, rems, or any other units. We provide a
-  | few common use-cases by default. You can, of course, modify these
+  | few common use-cases by pages. You can, of course, modify these
   | values as needed.
   |
   | Class name: .min-h-{size}
+  | CSS property: min-height
   |
   */
 
   minHeight: {
     '0': '0',
     'full': '100%',
-    'screen': '100vh'
+    'screen': '100vh',
   },
 
 
@@ -584,12 +599,13 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your maximum width utility sizes. These can
-  | be percentage based, pixels, rems, or any other units. By default
+  | be percentage based, pixels, rems, or any other units. By pages
   | we provide a sensible rem based scale and a "full width" size,
   | which is basically a reset utility. You can, of course,
   | modify these values as needed.
   |
   | Class name: .max-w-{size}
+  | CSS property: max-width
   |
   */
 
@@ -614,10 +630,11 @@ module.exports = {
   |
   | Here is where you define your maximum height utility sizes. These can
   | be percentage based, pixels, rems, or any other units. We provide a
-  | couple common use-cases by default. You can, of course, modify
+  | couple common use-cases by pages. You can, of course, modify
   | these values as needed.
   |
   | Class name: .max-h-{size}
+  | CSS property: max-height
   |
   */
 
@@ -633,12 +650,13 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your padding utility sizes. These can be
-  | percentage based, pixels, rems, or any other units. By default we
+  | percentage based, pixels, rems, or any other units. By pages we
   | provide a sensible rem based numeric scale plus a couple other
   | common use-cases like "1px". You can, of course, modify these
   | values as needed.
   |
   | Class name: .p{side?}-{size}
+  | CSS property: padding
   |
   */
 
@@ -667,12 +685,13 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your margin utility sizes. These can be
-  | percentage based, pixels, rems, or any other units. By default we
+  | percentage based, pixels, rems, or any other units. By pages we
   | provide a sensible rem based numeric scale plus a couple other
   | common use-cases like "1px". You can, of course, modify these
   | values as needed.
   |
   | Class name: .m{side?}-{size}
+  | CSS property: margin
   |
   */
 
@@ -702,12 +721,13 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you define your negative margin utility sizes. These can
-  | be percentage based, pixels, rems, or any other units. By default we
+  | be percentage based, pixels, rems, or any other units. By pages we
   | provide matching values to the padding scale since these utilities
   | generally get used together. You can, of course, modify these
   | values as needed.
   |
   | Class name: .-m{side?}-{size}
+  | CSS property: margin
   |
   */
 
@@ -739,10 +759,11 @@ module.exports = {
   | the defaults we provide, it's possible to apply multiple shadows
   | per utility using comma separation.
   |
-  | If a `default` shadow is provided, it will be made available as the non-
+  | If a `pages` shadow is provided, it will be made available as the non-
   | suffixed `.shadow` utility.
   |
   | Class name: .shadow-{size?}
+  | CSS property: box-shadow
   |
   */
 
@@ -761,11 +782,12 @@ module.exports = {
   | Z-index                                https://tailwindcss.com/docs/z-index
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your z-index utility values. By default we
+  | Here is where you define your z-index utility values. By pages we
   | provide a sensible numeric scale. You can, of course, modify these
   | values as needed.
   |
   | Class name: .z-{index}
+  | CSS property: z-index
   |
   */
 
@@ -785,11 +807,12 @@ module.exports = {
   | Opacity                                https://tailwindcss.com/docs/opacity
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your opacity utility values. By default we
+  | Here is where you define your opacity utility values. By pages we
   | provide a sensible numeric scale. You can, of course, modify these
   | values as needed.
   |
   | Class name: .opacity-{name}
+  | CSS property: opacity
   |
   */
 
@@ -807,12 +830,13 @@ module.exports = {
   | SVG fill                                   https://tailwindcss.com/docs/svg
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your SVG fill colors. By default we just provide
+  | Here is where you define your SVG fill colors. By pages we just provide
   | `fill-current` which sets the fill to the current text color. This lets you
   | specify a fill color using existing text color utilities and helps keep the
   | generated CSS file size down.
   |
   | Class name: .fill-{name}
+  | CSS property: fill
   |
   */
 
@@ -826,12 +850,13 @@ module.exports = {
   | SVG stroke                                 https://tailwindcss.com/docs/svg
   |-----------------------------------------------------------------------------
   |
-  | Here is where you define your SVG stroke colors. By default we just provide
+  | Here is where you define your SVG stroke colors. By pages we just provide
   | `stroke-current` which sets the stroke to the current text color. This lets
   | you specify a stroke color using existing text color utilities and helps
   | keep the generated CSS file size down.
   |
   | Class name: .stroke-{name}
+  | CSS property: stroke
   |
   */
 
@@ -852,6 +877,7 @@ module.exports = {
   |   - responsive
   |   - hover
   |   - focus
+  |   - focus-within
   |   - active
   |   - group-hover
   |
@@ -886,6 +912,8 @@ module.exports = {
     minHeight: ['responsive'],
     minWidth: ['responsive'],
     negativeMargin: ['responsive'],
+    objectFit: false,
+    objectPosition: false,
     opacity: ['responsive'],
     outline: ['focus'],
     overflow: ['responsive'],
@@ -896,6 +924,7 @@ module.exports = {
     shadows: ['responsive', 'hover', 'focus'],
     svgFill: [],
     svgStroke: [],
+    tableLayout: ['responsive'],
     textAlign: ['responsive'],
     textColors: ['responsive', 'hover', 'focus'],
     textSizes: ['responsive'],
@@ -916,7 +945,7 @@ module.exports = {
   |-----------------------------------------------------------------------------
   |
   | Here is where you can register any plugins you'd like to use in your
-  | project. Tailwind's built-in `container` plugin is enabled by default to
+  | project. Tailwind's built-in `container` plugin is enabled by pages to
   | give you a Bootstrap-style responsive container component out of the box.
   |
   | Be sure to view the complete plugin documentation to learn more about how

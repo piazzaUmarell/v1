@@ -1,17 +1,27 @@
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import infiniteScroll from 'vue-infinite-scroll'
+require("./bootstrap");
 
-require('mediaelement');
-let Vue = require('vue');
-var VueScrollTo = require('vue-scrollto');
+import Vue from "vue";
+import Vuex from "vuex";
+import 'es6-promise/auto';
+import routes from "./routes";
+import VueRouter from 'vue-router'
+import storeDefinition from "./store/store";
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-Vue.use(VueScrollTo);
-Vue.use(infiniteScroll)
+Vue.use(Vuex);
+Vue.use(VueRouter);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
-Vue.component('piazza-home', require('./components/PiazzaHome.vue'));
+Vue.config.productionTip = false;
 
-Vue.prototype.$ENV = ENV;
+
+let router = new VueRouter({
+    routes
+});
+
+let store = new Vuex.Store(storeDefinition);
 
 let app = new Vue({
-    el: '#root',
-})
+    el: "#app",
+    router,
+    store
+});

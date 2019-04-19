@@ -1,11 +1,13 @@
-*/**/examples
-*/**/docs
-*.log
-*/**/.DS_STORE
-*/**/LICENSE
-*/**/README.md
-node_modules/
-.DS_STORE
-vendor
-package-lock.json
-composer.lock
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+/.DS_Store
+/.idea
+/public/static/
+/node_modules/
