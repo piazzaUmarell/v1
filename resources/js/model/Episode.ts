@@ -1,4 +1,5 @@
 import Constants from "../Constants";
+import Tag from "./Tag";
 
 export default class Episode {
 
@@ -10,6 +11,7 @@ export default class Episode {
     protected publication_date: Date;
     protected duration: string;
     protected source: string;
+    protected tags: Tag[] = [];
 
     public constructor(data: object) {
         this.setId(
@@ -30,6 +32,11 @@ export default class Episode {
             new Date(Episode.safeDataAccessor(data, 'publication_date'))
         );
 
+        let categories : [] = Episode.safeDataAccessor(data, 'categories');
+
+        for(let category of categories) {
+            this.tags.push(new Tag(category));
+        }
     }
 
     protected static safeDataAccessor(data: object, key: string) {
@@ -123,6 +130,15 @@ export default class Episode {
 
     public getPublicationDateForHumans() {
         return this.publication_date.toLocaleString()
+    }
+
+    public getCategories() : Tag[] {
+        return this.tags;
+    }
+
+    public setCategories(categories: Tag[]): Episode {
+        this.tags = categories;
+        return this;
     }
 
 }

@@ -17,6 +17,7 @@
         "symfony/twig-bundle": "4.2.*",
         "symfony/yaml": "4.2.*",
         "wapmorgan/mp3info": "^0.0.4",
+        "white-october/pagerfanta-bundle": "^1.2",
         "willdurand/hateoas": "^2.12"
     },
     "config": {

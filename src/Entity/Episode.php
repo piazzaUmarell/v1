@@ -59,10 +59,9 @@ class Episode
 
     /**
      * @ORM\ManyToMany(targetEntity="App\Entity\Category", mappedBy="episodes")
-     * @Serializer\Exclude()
      */
     private $categories;
-
+    
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Series", inversedBy="episodes")
      * @ORM\JoinColumn(nullable=true)

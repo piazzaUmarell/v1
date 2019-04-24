@@ -1,4 +1,7 @@
 import axios from "axios";
+import Router from "../../../api/Router";
+import Constants from "../../../Constants";
+import KeywordCollection from "../../../api/KeywordCollection";
 
 export default {
     refresh: context => {
@@ -38,11 +41,40 @@ export default {
     },
 
     page: (context, page) => {
-        axios.get(context.getters.urlForPage(page))
+        let router = new Router();
+        let route = router.route(
+            Constants.API_EPISODE_INDEX,
+            {
+                page,
+                filter: context.getters.keywords
+            }
+        );
+
+        axios.get(route)
             .then(({data}) => {
                 context.commit('refresh', data);
             })
     },
+
+    filter: (context) => {
+        let router = new Router();
+        let route = router.route(
+            Constants.API_EPISODE_INDEX,
+            {filter: context.getters.keywords}
+        );
+
+        axios.get(route)
+            .then(({data}) => {
+                context.commit('refresh', data);
+            });
+    },
+
+    applyKeywords: (context, keywords) => {
+        context.commit("applyKeywords", new KeywordCollection(keywords));
+        context.dispatch("filter");
+    },
+
+
 
     init: context => {
         if(context.getters.ready) return;

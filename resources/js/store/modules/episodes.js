@@ -7,6 +7,7 @@ export default {
 
     state: {
         collection: [],
+        keywords: [],
         ready: false,
         _links: {
             self: '',

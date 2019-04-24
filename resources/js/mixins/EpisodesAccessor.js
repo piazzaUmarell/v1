@@ -11,7 +11,10 @@ export default {
             'episodes',
             'latestEpisode',
             'isFirstPage',
-            'isLastPage'
+            'isLastPage',
+            'currentPage',
+            'lastPage',
+            'urlForPage'
         ]),
     },
 
@@ -22,7 +25,10 @@ export default {
             'first',
             'last',
             'next',
-            'previous'
+            'previous',
+            'page',
+            'filter',
+            'applyKeywords'
         ]),
     }
 }

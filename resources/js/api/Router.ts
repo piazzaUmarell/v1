@@ -1,6 +1,7 @@
 import BoundGlobalAccessor from "../helpers/BoundGlobalAccessor";
 import PlaceholderHandler from "../helpers/PlaceholderHandler";
 import RoutePatternGenerator from "./RoutePatternGenerator";
+import RoutePlaceholderHandler from "./RoutePlaceholderHandler";
 
 export default class Router extends BoundGlobalAccessor {
 
@@ -8,7 +9,7 @@ export default class Router extends BoundGlobalAccessor {
 
     public constructor() {
         super();
-        this.placeholderHandler = new PlaceholderHandler(
+        this.placeholderHandler = new RoutePlaceholderHandler(
             new RoutePatternGenerator()
         )
     }

@@ -11,7 +11,6 @@ use Hateoas\Representation\CollectionRepresentation;
 use Hateoas\Representation\PaginatedRepresentation;
 use ReflectionClass;
 use ReflectionException;
-use App\Response\ResourceIndexResponse;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -36,15 +35,18 @@ class EpisodesController extends AbstractController
     public function index(Request $request, SerializerProvider $serializerProvider) {
         $page = $request->get("page", 1);
         $items = $request->get("limit", 10);
+        $filters = $request->get("filter", []);
+        $filters = is_array($filters) ? $filters : [$filters];
         
         $episodesRepository = $this->getDoctrine()->getRepository(Episode::class);
         
         $entities = $episodesRepository->findLatestPaginated(
             $page,
-            $items
+            $items,
+            $filters
         );
         
-        $pages = $episodesRepository->getPagesCount($items);
+        $pages = $episodesRepository->getPagesCount($items, $filters);
     
         $resource = strtolower(
             Inflector::pluralize(
@@ -62,7 +64,9 @@ class EpisodesController extends AbstractController
         $paginatedCollection = new PaginatedRepresentation(
             $collection,
             API_ROUTE_EPISODE_INDEX,
-            [],
+            [
+                'filter' => $filters
+            ],
             $page,
             $items,
             $pages

@@ -148,7 +148,7 @@ class ImportFromXmlCommand extends Command
     }
     
     protected static function readXml() {
-        $xml = simplexml_load_file("./umarell_puntate.xml");
+        $xml = simplexml_load_file("https://www.piazzaumarell.it/umarell_puntate.xml");
         $namespaces = $xml->getNamespaces(true);
         
         $last = count($xml->channel->item);
