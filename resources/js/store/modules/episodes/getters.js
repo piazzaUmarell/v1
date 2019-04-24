@@ -31,22 +31,6 @@ export default {
         return state.keywords;
     },
 
-    latestEpisode: (state) => {
-        if(state.collection.length === 0) {
-            return null;
-        }
-
-        let latestEpisode = state.collection[0];
-
-        for(let i = 1; i < state.collection.length; i++) {
-            let episode = state.collection[i];
-            if(!latestEpisode.isPublishedAfter(episode)) {
-                latestEpisode = episode;
-            }
-        }
-        return latestEpisode;
-    },
-
     currentPageUrl: (state) => {
         let router = new Router();
         let defaultRoute = router.route(Constants.API_EPISODE_INDEX, {filter: state.keywords});

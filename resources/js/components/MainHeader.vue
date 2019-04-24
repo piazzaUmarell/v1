@@ -12,7 +12,6 @@
 </template>
 
 <script>
-
     export default {
         name: "MainHeader",
         props: ['title', 'subtitle', 'disclaimer']

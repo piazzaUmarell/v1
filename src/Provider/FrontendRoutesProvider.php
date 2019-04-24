@@ -36,7 +36,7 @@ class FrontendRoutesProvider
     public function get() : array {
         return DotNotationCollection::explode([
             "episodes.index" => $this->_urlGenerator->generate(API_ROUTE_EPISODE_INDEX),
-            
+            "latest-episode.show" => $this->_urlGenerator->generate(API_ROUTE_LATEST_EPISODE_SHOW)
         ]);
     }
 }

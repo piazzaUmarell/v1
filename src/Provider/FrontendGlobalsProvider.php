@@ -23,7 +23,7 @@ class FrontendGlobalsProvider
     
     public function get() {
         return DotNotationCollection::explode([
-            "episodes.cardinality" => $this->getEpisodesCardinality()
+            // "episodes.cardinality" => $this->getEpisodesCardinality()
         ]);
     }
     

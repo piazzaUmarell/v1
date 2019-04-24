@@ -3,19 +3,19 @@
 
 namespace App\Controller\Api;
 
+use ReflectionClass;
 use App\Entity\Episode;
+use ReflectionException;
 use App\Provider\SerializerProvider;
 use App\Response\ResourceShowResponse;
 use Doctrine\Common\Inflector\Inflector;
-use Hateoas\Representation\CollectionRepresentation;
-use Hateoas\Representation\PaginatedRepresentation;
-use ReflectionClass;
-use ReflectionException;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Hateoas\Representation\PaginatedRepresentation;
+use Hateoas\Representation\CollectionRepresentation;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 /**
  * Class EpisodesController

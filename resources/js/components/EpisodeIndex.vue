@@ -76,9 +76,7 @@
 
         methods: {
             triggerFilter() {
-                if(this.keywords.length >= 3) {
-                    this.applyKeywords(this.keywords);
-                }
+                this.applyKeywords(this.keywords);
             }
         }
 

@@ -74,8 +74,6 @@ export default {
         context.dispatch("filter");
     },
 
-
-
     init: context => {
         if(context.getters.ready) return;
         axios

@@ -3,6 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\Episode;
+use Carbon\Carbon;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\QueryBuilder;
 use Symfony\Bridge\Doctrine\RegistryInterface;
@@ -37,6 +38,16 @@ class EpisodeRepository extends ServiceEntityRepository
             ->setMaxResults($itemsPerPage)
             ->getQuery();
         return $query->getResult();
+    }
+    
+    public function findLatest() {
+        return $this->createQueryBuilder("episode")
+            ->andWhere("episode.publicationDate <= :now")
+            ->setParameter("now", Carbon::now())
+            ->orderBy("episode.publicationDate", "DESC")
+            ->setMaxResults(1)
+            ->getQuery()
+            ->getResult()[0];
     }
     
     protected function applyFilters(array $filters): QueryBuilder {

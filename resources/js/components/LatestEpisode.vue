@@ -1,30 +1,30 @@
 <template>
-    <section v-if="latestEpisode" class="latest-episode-container w-4/5 md:w-2/3 lg:w-1/2">
+    <section v-if="latest" class="latest-episode-container w-4/5 md:w-2/3 lg:w-1/2">
         <article class="latest-episode">
-            <router-link class="play" :to="latestEpisode.getDetailRoute()">
+            <router-link class="play" :to="latest.getDetailRoute()">
                 <font-awesome-icon icon="play"></font-awesome-icon>
             </router-link>
             <section class="title-container">
-                <h2 class="subtitle mr-8">#<span v-text="latestEpisode.number"></span></h2>
-                <h1 class="title" v-text="latestEpisode.title"></h1>
-                <span class="content" v-text="latestEpisode.duration"></span>
+                <h2 class="subtitle mr-8">#<span v-text="latest.number"></span></h2>
+                <h1 class="title" v-text="latest.title"></h1>
+                <span class="content" v-text="latest.duration"></span>
             </section>
         </article>
         <section class="episode-description content">
-            <article v-text="latestEpisode.abstract"></article>
-            <span class="float-right" v-text="latestEpisode.getPublicationDateForHumans()"></span>
+            <article v-text="latest.abstract"></article>
+            <span class="float-right" v-text="latest.getPublicationDateForHumans()"></span>
         </section>
     </section>
 </template>
 
 <script>
-    import episodeAccessor from "../mixins/EpisodesAccessor";
     import { faPlay } from '@fortawesome/free-solid-svg-icons'
     import { library } from '@fortawesome/fontawesome-svg-core';
+    import latestEpisodeAccessor from "../mixins/LatestEpisodeAccessor";
 
     export default {
         name: "LatestEpisode",
-        mixins: [episodeAccessor],
+        mixins: [latestEpisodeAccessor],
 
         created() {
             library.add(faPlay);
