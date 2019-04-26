@@ -7,7 +7,10 @@
             <section class="title-container lg:items-baseline items-center">
                 <h2 class="subtitle mr-8">#<span v-text="latest.number"></span></h2>
                 <h1 class="title" v-text="latest.title"></h1>
-                <span class="content" v-text="latest.duration"></span>
+                <div class="content flex flex-row items-center">
+                    <font-awesome-icon icon="clock"></font-awesome-icon>
+                    <span v-text="latest.duration"></span>
+                </div>
             </section>
         </article>
         <section class="episode-description content">
@@ -18,7 +21,7 @@
 </template>
 
 <script>
-    import { faPlay } from '@fortawesome/free-solid-svg-icons'
+    import { faPlay, faClock } from '@fortawesome/free-solid-svg-icons'
     import { library } from '@fortawesome/fontawesome-svg-core';
     import latestEpisodeAccessor from "../mixins/LatestEpisodeAccessor";
 
@@ -27,7 +30,7 @@
         mixins: [latestEpisodeAccessor],
 
         created() {
-            library.add(faPlay);
+            library.add(faPlay, faClock);
         },
     }
 </script>

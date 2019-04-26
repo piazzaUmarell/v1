@@ -22,14 +22,16 @@
                         <font-awesome-icon icon="play"></font-awesome-icon>
                     </router-link>
                     <div class="container">
-                        <section class="title-container flex-col lg:flex-row">
+                        <section class="title-container flex-col">
                             <router-link :to="episode.getDetailRoute()">
                                 <h2 class="title" v-text="episode.title"></h2>
                             </router-link>
-                            <span class="content duration lg:ml-6 mb-6 lg:mb-0 font-bold lg:font-normal" v-text="'[ ' + episode.duration + ' ]'"></span>
+                            <div class="content duration mb-6 font-bold lg:font-normal">
+                                <font-awesome-icon icon="clock"></font-awesome-icon>
+                                <span v-text="episode.duration"></span>
+                            </div>
                         </section>
                         <span class="content" v-text="episode.abstract"></span>
-                        <br>
                         <section class="footer">
                             <ul class="tag-list lg:flex">
                                 <li class="tag episode mb-2 lg:mb-0">
@@ -54,7 +56,7 @@
     import EpisodeAccessor from "../mixins/EpisodesAccessor";
     import EpisodeIndexPaginator from "./EpisodeIndexPaginator";
 
-    import { faPlay, faSearch } from '@fortawesome/free-solid-svg-icons'
+    import { faPlay, faSearch, faClock } from '@fortawesome/free-solid-svg-icons'
     import { library } from '@fortawesome/fontawesome-svg-core';
 
     export default {
@@ -71,7 +73,7 @@
         },
 
         created() {
-            library.add(faPlay, faSearch);
+            library.add(faPlay, faSearch, faClock);
         },
 
         methods: {
