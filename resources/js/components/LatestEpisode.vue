@@ -4,7 +4,7 @@
             <router-link class="play" :to="latest.getDetailRoute()">
                 <font-awesome-icon icon="play"></font-awesome-icon>
             </router-link>
-            <section class="title-container">
+            <section class="title-container lg:items-baseline items-center">
                 <h2 class="subtitle mr-8">#<span v-text="latest.number"></span></h2>
                 <h1 class="title" v-text="latest.title"></h1>
                 <span class="content" v-text="latest.duration"></span>
@@ -51,10 +51,10 @@
             }
 
             .title-container {
-                @apply flex flex-row items-baseline justify-start w-full;
+                @apply flex flex-row justify-start w-full;
 
                 .title {
-                    @apply flex-1;
+                    @apply flex-1 pr-4;
                 }
 
                 .content {

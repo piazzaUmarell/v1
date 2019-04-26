@@ -74,10 +74,12 @@ export default {
         context.dispatch("filter");
     },
 
-    init: context => {
+    init: (context, startingPage) => {
         if(context.getters.ready) return;
+        startingPage = startingPage ? startingPage : 1;
+        let router = new Router();
         axios
-            .get(context.getters.currentPageUrl)
+            .get(router.route(Constants.API_EPISODE_INDEX, {page: startingPage}))
             .then(({data}) => {
                 context.commit('refresh', data);
             })

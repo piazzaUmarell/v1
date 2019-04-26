@@ -3,7 +3,9 @@ const { mapGetters, mapActions } = createNamespacedHelpers('episodes');
 
 export default {
     created() {
-        this.init();
+        this.init(
+            this.$route.query.page
+        );
     },
 
     computed: {

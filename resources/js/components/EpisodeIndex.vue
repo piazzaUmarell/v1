@@ -22,24 +22,24 @@
                         <font-awesome-icon icon="play"></font-awesome-icon>
                     </router-link>
                     <div class="container">
-                        <section class="title-container">
+                        <section class="title-container flex-col lg:flex-row">
                             <router-link :to="episode.getDetailRoute()">
                                 <h2 class="title" v-text="episode.title"></h2>
                             </router-link>
-                            <span class="content duration" v-text="'[ ' + episode.duration + ' ]'"></span>
+                            <span class="content duration lg:ml-6 mb-6 lg:mb-0 font-bold lg:font-normal" v-text="'[ ' + episode.duration + ' ]'"></span>
                         </section>
                         <span class="content" v-text="episode.abstract"></span>
                         <br>
                         <section class="footer">
-                            <ul class="tag-list">
-                                <li class="tag episode">
+                            <ul class="tag-list lg:flex">
+                                <li class="tag episode mb-2 lg:mb-0">
                                     <span class="title text-blue-darkest" v-text="'Episodio #' + episode.number"></span>
                                 </li>
-                                <li class="tag" v-for="tag in episode.tags">
+                                <li class="tag mb-2 lg:mb-0" v-for="tag in episode.tags">
                                     <span class="title text-blue-darkest" v-text="tag.name"></span>
                                 </li>
                             </ul>
-                            <span class="content italic float-right" v-text="episode.getPublicationDateForHumans()"></span>
+                            <span class="content italic block w-full text-center lg:text-right mt-4 lg:mt-4" v-text="episode.getPublicationDateForHumans()"></span>
                         </section>
                     </div>
                 </li>
@@ -130,14 +130,14 @@
 
             .container {
                 .title-container {
-                    @apply flex flex-row justify-start items-baseline;
+                    @apply flex justify-start items-baseline;
 
                     .title {
                         @apply my-0 text-left text-5xl mb-4;
                     }
 
                     > * {
-                        @apply ml-6 text-black;
+                        @apply text-black;
 
                         &:first-child {
                             @apply ml-0;
@@ -146,16 +146,17 @@
                 }
 
                 .footer {
-                    @apply mt-8 flex flex-row;
+                    @apply mt-8 flex-row;
 
                     .title {
                         @apply text-3xl;
                     }
 
                     .tag-list{
-                        @apply flex flex-row flex-1 list-reset;
+                        @apply flex-row flex-1 list-reset;
 
                         li {
+                            @apply bg-grey-lighter rounded-full px-4 border-none py-0 mr-4 flex flex-col justify-center items-center;
 
                             &.episode {
                                 span {
@@ -163,8 +164,6 @@
                                 }
                                 background: linear-gradient(to right, config("colors.blue-dark"), config("colors.indigo-light"));
                             }
-
-                            @apply bg-grey-lighter rounded-full px-4 border-none py-0 mr-4;
 
                             span{
                                 @apply my-0;
