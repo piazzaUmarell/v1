@@ -5,6 +5,7 @@ export default class Episode {
 
     protected id: number;
     protected title: string;
+    protected slug: string;
     protected number: string;
     protected abstract: string;
     protected description: string;
@@ -18,6 +19,8 @@ export default class Episode {
             Episode.safeDataAccessor(data, 'id')
         ).setTitle(
             Episode.safeDataAccessor(data, 'title')
+        ).setSlug(
+            Episode.safeDataAccessor(data, 'slug')
         ).setNumber(
             Episode.safeDataAccessor(data, 'number')
         ).setAbstract(
@@ -110,6 +113,15 @@ export default class Episode {
         return this;
     }
 
+    public getSlug(): string {
+        return this.slug;
+    }
+
+    public setSlug(slug: string): Episode {
+        this.slug = slug;
+        return this;
+    }
+
     public setPublicationDate(publicationDate: Date): Episode {
         this.publication_date = publicationDate;
         return this;
@@ -123,7 +135,7 @@ export default class Episode {
         return {
             name: Constants.ROUTE_EPISODE_SHOW,
             params: {
-                'id' : this.id
+                'slug' : this.slug
             }
         }
     }

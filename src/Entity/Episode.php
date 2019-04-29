@@ -11,6 +11,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\EpisodeRepository")
+ * @ORM\Table(uniqueConstraints={@ORM\UniqueConstraint(name="slug_idx", columns={"slug"})})
  * @Hateoas\Relation(
  *      "self",
  *      href = @Hateoas\Route(
@@ -36,6 +37,11 @@ class Episode
      * @ORM\Column(type="string", length=255)
      */
     private $title;
+    
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $slug;
 
     /**
      * @ORM\Column(type="decimal", precision=10, scale=2, nullable=true)
@@ -184,16 +190,27 @@ class Episode
 
         return $this;
     }
-
+    
     public function getSource(): ?string
     {
         return $this->source;
     }
-
+    
     public function setSource(string $source): self
     {
         $this->source = $source;
-
+        
+        return $this;
+    }
+    
+    public function getSlug(): ?string
+    {
+        return $this->slug;
+    }
+    
+    public function setSlug(string $slug): self
+    {
+        $this->slug = $slug;
         return $this;
     }
     

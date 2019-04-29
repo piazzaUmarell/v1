@@ -3,10 +3,11 @@
 
 namespace App\Command;
 
-use App\Entity\Episode;
 use DateTime;
 use Carbon\Carbon;
 use SimpleXMLElement;
+use App\Entity\Episode;
+use ForceUTF8\Encoding;
 use App\Entity\Category;
 use Doctrine\ORM\EntityManagerInterface;
 use App\Calculator\CategorySlugCalculator;
@@ -116,22 +117,23 @@ class ImportFromXmlCommand extends Command
         return "$relativeDestination{$episodeInfo['basename']}";
     }
     
-    protected static function retrieveEpisode($episodeData): Episode {
+    protected function retrieveEpisode($episodeData): Episode {
         /**
          * @var Carbon $date
          */
         $date = $episodeData['date'];
         $episode = new Episode();
         $episode->setTitle($episodeData['title']);
+        $episode->setSlug(
+            $this->_slugifier->calculate(
+                Encoding::toUTF8($episodeData['title'])
+            )
+        );
         $episode->setNumber($episodeData['number']);
         $episode->setAbstract(trim($episodeData['abstract'], " \t\n"));
         $episode->setDescription($episodeData['summary']);
         $episode->setPublicationDate($date);
         return $episode;
-    }
-    
-    protected static function calculateKey($episodeData){
-        // return File::getValidFilename("{$episodeData['number']}-{$episodeData['title']}");
     }
     
     protected static function serializeFromXml(SimpleXMLElement $element, $namespaces)

@@ -90,6 +90,9 @@
     "jms/serializer": {
         "version": "1.13.0"
     },
+    "neitanod/forceutf8": {
+        "version": "v2.0.2"
+    },
     "nesbot/carbon": {
         "version": "2.16.3"
     },
