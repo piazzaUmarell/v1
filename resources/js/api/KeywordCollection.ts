@@ -7,7 +7,7 @@ export default class KeywordCollection {
     protected aggregators: string[] = ["\""];
     protected lengthLimit: number = 3;
 
-    public constructor(source: string, lengthLimit: number = 3, separators: string[] = [], aggregators: string[] = []) {
+    public constructor(source: string = "", lengthLimit: number = 3, separators: string[] = [], aggregators: string[] = []) {
         this.separators = separators.length > 0 ? separators : this.separators;
         this.aggregators = aggregators.length > 0 ? aggregators : this.aggregators;
         this.lengthLimit = lengthLimit;

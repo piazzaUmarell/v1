@@ -1,20 +1,8 @@
 <template>
     <section class="episode-index w-full">
         <h1 class="title">Episodi</h1>
-        <header class="filter">
-            <div class="input-container">
-                <label class="ml-4" for="filter">
-                    <font-awesome-icon icon="search" class="text-grey-darker"></font-awesome-icon>
-                </label>
-                <input
-                        id="filter"
-                        type="text"
-                        @keyup="triggerFilter"
-                        v-model="keywords"
-                        placeholder="Filtra per titolo..."
-                >
-            </div>
-        </header>
+        <episode-index-filter></episode-index-filter>
+
         <main class="w-full md:w-5/6 mx-auto">
             <ul class="list-reset">
                 <li v-for="episode in episodes">
@@ -53,54 +41,30 @@
 
 <script>
 
+    import EpisodeIndexFilter from "./EpisodeIndexFilter";
     import EpisodeAccessor from "../mixins/EpisodesAccessor";
     import EpisodeIndexPaginator from "./EpisodeIndexPaginator";
 
-    import { faPlay, faSearch, faClock } from '@fortawesome/free-solid-svg-icons'
+    import { faPlay, faClock } from '@fortawesome/free-solid-svg-icons'
     import { library } from '@fortawesome/fontawesome-svg-core';
 
     export default {
         name: "EpisodeIndex",
         mixins: [EpisodeAccessor],
+
         components: {
+            EpisodeIndexFilter,
             EpisodeIndexPaginator
         },
 
-        data() {
-            return {
-                keywords: ""
-            }
-        },
-
         created() {
-            library.add(faPlay, faSearch, faClock);
+            library.add(faPlay, faClock);
         },
-
-        methods: {
-            triggerFilter() {
-                this.applyKeywords(this.keywords);
-            }
-        }
-
-
     }
 </script>
 
 <style scoped lang="scss">
     .episode-index {
-
-        .filter {
-            @apply text-3xl mb-8 sticky pin-t bg-white py-4 w-full px-32;
-
-            .input-container {
-                @apply rounded-full border border-grey-lighter bg-grey-lighter px-8 outline-none pt-4 pb-2 flex items-baseline;
-
-                input {
-                    @apply outline-none pl-4 flex-1;
-                    background: transparent;
-                }
-            }
-        }
 
         main {
             @apply px-16 pb-32 mx-auto mt-8;

@@ -70,7 +70,13 @@ export default {
     },
 
     applyKeywords: (context, keywords) => {
-        context.commit("applyKeywords", new KeywordCollection(keywords));
+        if(typeof keywords === "string") {
+            keywords = new KeywordCollection(keywords)
+        }
+        if(!keywords instanceof KeywordCollection) {
+            throw new Error("Invalid keywords passed");
+        }
+        context.commit("applyKeywords", keywords);
         context.dispatch("filter");
     },
 
