@@ -1,7 +1,7 @@
 <template>
     <header class="filter lg:flex px-8 lg:px-32" :class="{sticky: scrolledPast}">
         <router-link :to="homepageRoute" class="hover:no-underline no-underline">
-            <h1 class="lg:mx-16">Piazza Umarell</h1>
+            <h1 class="lg:mx-16 text-center md:ml-8 md:text-left">Piazza Umarell</h1>
         </router-link>
         <div class="input-container">
             <label class="ml-4" for="filter">
@@ -93,7 +93,7 @@
             display: none;
             content:"Piazza Umarell";
             font-family: "Pridi", serif;
-            @apply py-4 text-white rounded-full text-5xl text-center;
+            @apply py-4 text-white rounded-full text-5xl;
         }
 
         .input-container {
