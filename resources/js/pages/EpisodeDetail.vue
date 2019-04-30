@@ -1,13 +1,17 @@
 <template>
-    
+    <episode></episode>
 </template>
 
 <script>
+
+    import Episode from "../components/Episode";
+
     export default {
-        name: "EpisodeDetail"
+        name: "EpisodeDetail",
+        components: {Episode},
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

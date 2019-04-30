@@ -97,6 +97,14 @@ class EpisodesController extends AbstractController
             ->findOneBy(
                 ['id' => $request->get("episode_id")]
             );
+        
+        if(!$episode) {
+            $episode = $this->getDoctrine()
+                ->getRepository(Episode::class)
+                ->findOneBy(
+                    ['slug' => $request->get("episode_id")]
+                );
+        }
     
         return new ResourceShowResponse(
             $episode,

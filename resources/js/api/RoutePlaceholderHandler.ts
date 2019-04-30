@@ -4,12 +4,14 @@ export default class RoutePlaceholderHandler extends PlaceholderHandler {
 
     protected interpolate(template: string, placeholder: string, value: string): string {
         let placeholderPattern: RegExp =  this.placeholderGenerator.create(placeholder);
+
         if(RoutePlaceholderHandler.has(template, placeholderPattern)) {
             return template.replace(
-                placeholder,
+                placeholderPattern,
                 value
             )
         }
+
         return RoutePlaceholderHandler.addQueryParam(
             template,
             placeholder,

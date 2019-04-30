@@ -38,6 +38,7 @@ export default class PlaceholderHandler {
     }
 
     protected interpolate(template: string, placeholder: string, value: string): string {
+        console.log(this.placeholderGenerator.create(placeholder));
         return template.replace(
             this.placeholderGenerator.create(placeholder),
             value

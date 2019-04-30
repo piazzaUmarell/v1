@@ -3,7 +3,7 @@
         <h1 class="title">Episodi</h1>
         <episode-index-filter></episode-index-filter>
 
-        <main class="w-full md:w-5/6 mx-auto">
+        <section class="w-full md:w-5/6 mx-auto">
             <ul class="list-reset">
                 <li v-for="episode in episodes">
                     <router-link class="play" :to="episode.getDetailRoute()">
@@ -34,7 +34,7 @@
                     </div>
                 </li>
             </ul>
-        </main>
+        </section>
         <episode-index-paginator></episode-index-paginator>
     </section>
 </template>
