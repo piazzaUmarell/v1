@@ -74,12 +74,17 @@ class Episode
      * @Serializer\Exclude()
      */
     private $series;
-
+    
     /**
      * @ORM\Column(type="string", length=255)
      * @Serializer\Exclude()
      */
     private $source;
+    
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $duration;
 
     public function __construct()
     {
@@ -214,31 +219,16 @@ class Episode
         return $this;
     }
     
-    /**
-     * @Serializer\VirtualProperty()
-     */
-    public function duration() {
-        
-        $audio = new Mp3Info(
-             PUBLIC_ROOT . $this->getSource()
-        );
-        
-        $duration = $audio->duration;
-        $hours = floor($duration / 3600);
-        $duration -= ($hours * 3600);
-        $minutes = str_pad(
-            floor($duration / 60),
-            2,
-            "0",
-            STR_PAD_LEFT
-        );
-        $seconds = str_pad(
-            floor($duration % 60),
-            2,
-            "0",
-            STR_PAD_LEFT
-        );;
-        $duration = "$hours:$minutes:$seconds";
-        return $duration;
+    public function getDuration(): ?string
+    {
+        return $this->duration;
     }
+    
+    public function setDuration(string $duration): self
+    {
+        $this->duration = $duration;
+        return $this;
+    }
+    
+    
 }

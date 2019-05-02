@@ -11,7 +11,7 @@
                 <social-links></social-links>
             </section>
         </main-header>
-        <episode-index class="mb-32"></episode-index>
+        <episode-index></episode-index>
     </main>
 </template>
 
@@ -38,7 +38,7 @@
 
 <style lang="scss" scoped>
     .footer {
-        @apply flex flex-row justify-center mt-16 fixed pin-b w-full py-4;
+        @apply flex flex-row justify-center mt-16 pin-b w-full py-4;
         background: linear-gradient(to right, config("colors.blue-dark"), config("colors.indigo-light"));
     }
 </style>

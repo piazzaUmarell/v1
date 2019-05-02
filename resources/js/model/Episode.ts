@@ -15,6 +15,7 @@ export default class Episode {
     protected tags: Tag[] = [];
 
     public constructor(data: object) {
+        console.log(data);
         this.setId(
             Episode.safeDataAccessor(data, 'id')
         ).setTitle(
@@ -28,22 +29,30 @@ export default class Episode {
         ).setDescription(
             Episode.safeDataAccessor(data, 'description')
         ).setSource(
-            Episode.safeDataAccessor(data, 'source')
+            Episode.safeDataAccessor(data, '_links.source.href')
         ).setDuration(
             Episode.safeDataAccessor(data, 'duration')
         ).setPublicationDate(
-            new Date(Episode.safeDataAccessor(data, 'publication_date'))
+            new Date(
+                Episode.safeDataAccessor(data, 'publication_date')
+            )
         );
 
-        let categories : [] = Episode.safeDataAccessor(data, 'categories');
+        let categories : object[] = Episode.safeDataAccessor(data, 'categories');
 
         for(let category of categories) {
             this.tags.push(new Tag(category));
         }
     }
 
-    protected static safeDataAccessor(data: object, key: string) {
-        return data.hasOwnProperty(key) ? data[key] : null;
+    protected static safeDataAccessor(data: object, key: string): any {
+        let keys: string[] = key.split(".");
+        let iterator: object = data;
+        for(let key of keys) {
+            if(!iterator.hasOwnProperty(key)) return null;
+            iterator = iterator[key];
+        }
+        return iterator;
     }
 
     public getId(): number {

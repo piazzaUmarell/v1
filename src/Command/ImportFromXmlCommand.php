@@ -3,6 +3,7 @@
 
 namespace App\Command;
 
+use App\Calculator\Mp3DurationCalculator;
 use DateTime;
 use Carbon\Carbon;
 use SimpleXMLElement;
@@ -11,6 +12,7 @@ use ForceUTF8\Encoding;
 use App\Entity\Category;
 use Doctrine\ORM\EntityManagerInterface;
 use App\Calculator\CategorySlugCalculator;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -52,12 +54,19 @@ class ImportFromXmlCommand extends Command
     {
         $this
             ->setDescription("Imports the episodes from the xml given by the old site")
+            ->addArgument("source", InputArgument::REQUIRED, "The source from which read the needed xml data")
         ;
     }
     
+    /**
+     * @param InputInterface $input
+     * @param OutputInterface $output
+     * @return int|void|null
+     * @throws \Exception
+     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $episodes = self::readXml();
+        $episodes = self::readXml($input->getArgument("source"));
         setlocale(LC_TIME, 'it_IT');
         foreach($episodes as $episodeData) {
             echo "Handling episode {$episodeData['number']}: {$episodeData['title']}\n";
@@ -65,6 +74,7 @@ class ImportFromXmlCommand extends Command
             $episodeAsset = $this->retrieveAsset($episodeData);
             $episode = $this->retrieveEpisode($episodeData);
             $episode->setSource($episodeAsset);
+            $episode->setDuration(Mp3DurationCalculator::calculate(PUBLIC_ROOT . $episodeAsset));
             array_map(function(Category $category) use ($episode) {
                 $episode->addCategory($category);
             }, $episodeCategories);
@@ -132,6 +142,7 @@ class ImportFromXmlCommand extends Command
         $episode->setNumber($episodeData['number']);
         $episode->setAbstract(trim($episodeData['abstract'], " \t\n"));
         $episode->setDescription($episodeData['summary']);
+        $episode->setSource($episodeData['url']);
         $episode->setPublicationDate($date);
         return $episode;
     }
@@ -149,8 +160,8 @@ class ImportFromXmlCommand extends Command
         ];
     }
     
-    protected static function readXml() {
-        $xml = simplexml_load_file("https://www.piazzaumarell.it/umarell_puntate.xml");
+    protected static function readXml(string $source) {
+        $xml = simplexml_load_file($source);
         $namespaces = $xml->getNamespaces(true);
         
         $last = count($xml->channel->item);
