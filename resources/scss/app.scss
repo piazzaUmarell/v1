@@ -19,9 +19,16 @@ html, body, #app, main {
 }
 
 .content {
-  @apply text-white text-lg;
+  @apply text-white text-base;
   font-family: "Heebo", serif;
 }
+
+.aplayer .aplayer-body .aplayer-info .aplayer-music {
+    @apply flex flex-col;
+    > * {
+      @apply mb-1;
+    }
+  }
 
 @tailwind utilities;
 

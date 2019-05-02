@@ -15,7 +15,6 @@ export default class Episode {
     protected tags: Tag[] = [];
 
     public constructor(data: object) {
-        console.log(data);
         this.setId(
             Episode.safeDataAccessor(data, 'id')
         ).setTitle(
@@ -83,7 +82,10 @@ export default class Episode {
     }
 
     public getDescription(): string {
-        return this.description;
+        return this.description.replace(
+            /^(\s*<br( \/)?>)*|(<br( \/)?>\s*)*$/gm,
+            ""
+        ).trim();
     }
 
     public setDescription(description: string): Episode {

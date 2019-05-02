@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f488b6c0-9f31-4a17-b98d-af7ec9c66cd8" name="Default Changelist" comment="Added typescript configuration to repository.&#10;Extracted index filter to its own component.&#10;KeywordCollection can now be instantiated without a source string.">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/SocialLinks.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/mixins/EpisodeAccessor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/store/modules/episode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/store/modules/episode/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/store/modules/episode/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/store/modules/episode/mutations.js" afterDir="false" />
+    <list default="true" id="f488b6c0-9f31-4a17-b98d-af7ec9c66cd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/components/EpisodePlayer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/api/RoutePlaceholderHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/api/RoutePlaceholderHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Episode.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Episode.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/EpisodeIndexFilter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/EpisodeIndexFilter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/EpisodeIndexPaginator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/EpisodeIndexPaginator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/LatestEpisode.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/LatestEpisode.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/MainHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/MainHeader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/helpers/PlaceholderHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/helpers/PlaceholderHandler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/pages/EpisodeDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/EpisodeDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/SocialLinks.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/SocialLinks.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/model/Episode.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/model/Episode.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/pages/Homepage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/pages/Homepage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Api/EpisodesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Api/EpisodesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Provider/FrontendRoutesProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/FrontendRoutesProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,54 +47,24 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/Episode.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="356">
+              <caret line="99" column="32" lean-forward="true" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
               <folding>
-                <element signature="e#2153#2207#0" expanded="true" />
+                <element signature="e#1206#1243#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/MainHeader.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/js/pages/Homepage.vue">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
-              <folding>
-                <element signature="e#478#528#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/LatestEpisode.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="43" column="107" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/SocialLinks.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+            <state relative-caret-position="414">
+              <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -116,29 +82,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>detailroute</find>
-      <find>icon</find>
-      <find>taglist</find>
-      <find>ml-</find>
-      <find>text-4</find>
-      <find>shadow-md</find>
-      <find>loadall</find>
-      <find>var_d</find>
-      <find>distinct</find>
-      <find>keywords</find>
-      <find>getter</find>
-      <find>triggerfilter</find>
-      <find>latest</find>
-      <find>episodes</find>
-      <find>.tag</find>
-      <find>tag-list</find>
-      <find>flex</find>
-      <find>.title-container</find>
-      <find>title-container</find>
       <find>ml</find>
       <find>latest-epi</find>
       <find>latest-episode</find>
-      <find>duration</find>
       <find>slugifier</find>
       <find>calculatekey</find>
       <find>lastPage</find>
@@ -146,6 +92,26 @@
       <find>interpolate</find>
       <find>placeholderpattern</find>
       <find>librar</find>
+      <find>safedataaccessor</find>
+      <find>setduratio</find>
+      <find>retrieveasset</find>
+      <find>getdetailroute</find>
+      <find>homepage</find>
+      <find>red</find>
+      <find>350</find>
+      <find>francesco</find>
+      <find>bootstrap</find>
+      <find>latest-episopde</find>
+      <find>episode-description</find>
+      <find>.main</find>
+      <find>duration</find>
+      <find>mx-1</find>
+      <find>text-</find>
+      <find>.con</find>
+      <find>ta</find>
+      <find>title-cont</find>
+      <find>.title</find>
+      <find>.pla</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -158,12 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/symfony/http-foundation/JsonResponse.php" />
-        <option value="$PROJECT_DIR$/src/Response/ResourceIndexResponse.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Category.php" />
-        <option value="$PROJECT_DIR$/resources/js/model/Tag.ts" />
-        <option value="$PROJECT_DIR$/resources/js/helpers/PlaceholderPatternGenerator.ts" />
-        <option value="$PROJECT_DIR$/resources/js/api/RoutePatternGenerator.ts" />
         <option value="$PROJECT_DIR$/resources/js/helpers/RoutePlaceholderHandler.ts" />
         <option value="$PROJECT_DIR$/resources/js/api/KeywordsCollection.ts" />
         <option value="$PROJECT_DIR$/resources/js/api/Keyword.ts" />
@@ -179,18 +139,12 @@
         <option value="$PROJECT_DIR$/resources/js/mixins/LatestEpisodeAccessor.js" />
         <option value="$PROJECT_DIR$/resources/js/store/modules/latestEpisode/actions.js" />
         <option value="$PROJECT_DIR$/resources/js/store/modules/episodes/getters.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/EpisodeIndexPaginator.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/LatestEpisode.vue" />
         <option value="$PROJECT_DIR$/resources/js/store/modules/episodes/actions.js" />
         <option value="$PROJECT_DIR$/resources/js/api/KeywordCollection.ts" />
-        <option value="$PROJECT_DIR$/src/Entity/Episode.php" />
-        <option value="$PROJECT_DIR$/src/Command/ImportFromXmlCommand.php" />
         <option value="$PROJECT_DIR$/src/Calculator/CategorySlugCalculator.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/js/routes.js" />
-        <option value="$PROJECT_DIR$/resources/js/model/Episode.ts" />
         <option value="$PROJECT_DIR$/resources/js/mixins/EpisodesAccessor.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/EpisodeIndexFilter.vue" />
         <option value="$PROJECT_DIR$/resources/js/store/modules/episode.js" />
         <option value="$PROJECT_DIR$/resources/js/mixins/EpisodeAccessor.ts" />
         <option value="$PROJECT_DIR$/resources/js/Constants.ts" />
@@ -202,13 +156,25 @@
         <option value="$PROJECT_DIR$/resources/js/store/modules/episode/actions.js" />
         <option value="$PROJECT_DIR$/resources/js/store/modules/episode/mutations.js" />
         <option value="$PROJECT_DIR$/resources/js/store/modules/episode/getters.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/Episode.vue" />
         <option value="$PROJECT_DIR$/src/Controller/Api/EpisodesController.php" />
         <option value="$PROJECT_DIR$/resources/js/mixins/EpisodeAccessor.js" />
+        <option value="$PROJECT_DIR$/src/Command/InstallCommand.php" />
+        <option value="$PROJECT_DIR$/src/Calculator/Mp3DurationCalculator.php" />
+        <option value="$PROJECT_DIR$/src/Command/ImportFromXmlCommand.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Episode.php" />
+        <option value="$PROJECT_DIR$/resources/js/model/Episode.ts" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/resources/js/components/EpisodePlayer.vue" />
+        <option value="$PROJECT_DIR$/resources/scss/app.scss" />
+        <option value="$PROJECT_DIR$/resources/js/components/LatestEpisode.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/MainHeader.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/SocialLinks.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue" />
         <option value="$PROJECT_DIR$/resources/js/pages/Homepage.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/EpisodeIndexFilter.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/EpisodeIndexPaginator.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/Episode.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue" />
       </list>
     </option>
   </component>
@@ -284,7 +250,7 @@
       <path value="$PROJECT_DIR$/vendor/neitanod/forceutf8" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="779" />
@@ -295,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,13 +297,29 @@
             <path>
               <item name="piazza-umarell" type="b2602c69:ProjectViewProjectNode" />
               <item name="piazza-umarell" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piazza-umarell" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piazza-umarell" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piazza-umarell" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piazza-umarell" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piazza-umarell" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piazza-umarell" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,7 +378,8 @@
       <workItem from="1555484318260" duration="4000" />
       <workItem from="1555590586895" duration="2286000" />
       <workItem from="1555657042221" duration="46665000" />
-      <workItem from="1556527598389" duration="14232000" />
+      <workItem from="1556527598389" duration="18918000" />
+      <workItem from="1556802324254" duration="9074000" />
     </task>
     <task id="LOCAL-00001" summary="Welcome to Symfony.&#10;Homepage is almost ready, detail page for every episode is under development.">
       <created>1555684498163</created>
@@ -460,17 +444,31 @@
       <option name="project" value="LOCAL" />
       <updated>1556612133742</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&gt; Added social links to the header.&#10;&gt; Episodes::show now responds to slugs and ids&#10;&gt; Added first stub of detail page. WIP.">
+      <created>1556619371276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1556619371276</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added duration as a db column.">
+      <created>1556802669838</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556802669838</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101812000" />
+    <option name="totallyTimeSpent" value="115572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="783" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="779" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -507,143 +505,11 @@
     <MESSAGE value="Episodes now have a slug, frontend routes use slugs in urls." />
     <MESSAGE value="Styled filter to be responsive on scroll." />
     <MESSAGE value="Styling fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling fixes" />
+    <MESSAGE value="&gt; Added social links to the header.&#10;&gt; Episodes::show now responds to slugs and ids&#10;&gt; Added first stub of detail page. WIP." />
+    <MESSAGE value="Added duration as a db column." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added duration as a db column." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Response/ResourceShowResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Api/LatestEpisodeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="e#39#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/store/modules/latestEpisode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/store/modules/latestEpisode/getters.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/store/modules/latestEpisode/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/mixins/LatestEpisodeAccessor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/EpisodeRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndexPaginator.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/api/KeywordCollection.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="125" selection-start-line="9" selection-start-column="125" selection-end-line="9" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mix-manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/CategorySlugCalculator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Episode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6572">
-          <caret line="212" column="28" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
-          <folding>
-            <element signature="e#30#60#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command/ImportFromXmlCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
-          <folding>
-            <element signature="e#32#45#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scss/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/static/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="16618" column="2" selection-start-line="16618" selection-start-column="2" selection-end-line="16618" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndexFilter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#529#586#0" expanded="true" />
-            <element signature="e#1057#1504#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/store/modules/episodes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -807,16 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/model/Episode.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/persistence/lib/Doctrine/Common/Persistence/ObjectRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -834,17 +690,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Episode.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/mixins/EpisodeAccessor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/Mp3DurationCalculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculator/CategorySlugCalculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190430122156.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/ImportFromXmlCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="e#32#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Episode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#30#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/InstallCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding>
+            <element signature="e#32#46#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -855,44 +758,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/SocialLinks.vue">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="-963" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/model/Episode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/homepage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/LatestEpisode.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="43" column="107" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="107" />
+        <state relative-caret-position="301">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/SocialLinks.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="1178">
+          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
           <folding>
-            <element signature="e#2153#2207#0" expanded="true" />
+            <element signature="e#752#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/pages/Homepage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#494#544#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/MainHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="158">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/pages/Homepage.vue">
+    <entry file="file://$PROJECT_DIR$/resources/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="41" column="105" selection-start-line="41" selection-start-column="105" selection-end-line="41" selection-end-column="105" />
+        <state relative-caret-position="270">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodePlayer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndexPaginator.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="87" column="20" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
           <folding>
-            <element signature="e#478#528#0" expanded="true" />
+            <element signature="n#script#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndexFilter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2387">
+          <caret line="80" column="65" lean-forward="true" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Episode.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="99" column="32" lean-forward="true" selection-start-line="99" selection-start-column="32" selection-end-line="99" selection-end-column="32" />
+          <folding>
+            <element signature="e#1206#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/EpisodeIndex.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
         </state>
       </provider>
     </entry>

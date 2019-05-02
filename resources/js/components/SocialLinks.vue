@@ -19,13 +19,23 @@
 </template>
 
 <script>
+
+    import { faPodcast, faRss } from '@fortawesome/free-solid-svg-icons';
+    import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons';
+    import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+    import { library } from '@fortawesome/fontawesome-svg-core';
+
     export default {
-        name: "SocialLinks"
+        name: "SocialLinks",
+
+        created() {
+            library.add(faPodcast, faRss, faTelegramPlane, faEnvelope);
+        }
     }
 </script>
 
 <style lang="scss" scoped>
     a {
-        @apply text-white font-normal text-5xl mx-8;
+        @apply text-white font-normal text-4xl mx-8;
     }
 </style>

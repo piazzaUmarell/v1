@@ -11,10 +11,10 @@
                     </router-link>
                     <div class="container">
                         <section class="title-container flex-col">
-                            <router-link :to="episode.getDetailRoute()">
+                            <router-link class="no-underline" :to="episode.getDetailRoute()">
                                 <h2 class="title" v-text="episode.title"></h2>
                             </router-link>
-                            <div class="content duration mb-6 font-bold lg:font-normal">
+                            <div class="content duration mb-4 font-bold font-normal">
                                 <font-awesome-icon icon="clock"></font-awesome-icon>
                                 <span v-text="episode.duration"></span>
                             </div>
@@ -72,23 +72,23 @@
 
         .title {
             @apply text-blue-darkest mt-16 mb-32 text-center;
-            font-size: 6rem;
+            font-size: 5rem;
         }
 
         ul > li {
-            @apply pt-16 pb-8 border-t border-dashed border-blue-darkest flex flex-row justify-start items-start;
+            @apply pt-8 pb-4 border-t border-dashed border-blue-darkest flex flex-row justify-start items-start;
 
             &:first-child {
                 @apply pt-0 border-t-0;
             };
 
             .play {
-                @apply p-16 rounded-full bg-red flex justify-center items-center text-5xl border border-white text-white mr-4;
+                @apply mt-1 p-8 rounded-full bg-blue-dark flex justify-center items-center text-2xl border border-white text-white mr-4;
                 width:0; height:0;
                 background: linear-gradient(to right, config("colors.blue-dark"), config("colors.indigo-light"));
 
                 > * {
-                    @apply ml-1 mt-1;
+                    @apply ml-1;
                 }
 
             }
@@ -99,7 +99,7 @@
                     @apply flex justify-start items-baseline;
 
                     .title {
-                        @apply my-0 text-left text-5xl mb-4;
+                        @apply mt-0 text-left text-2xl mb-2;
                     }
 
                     > * {
@@ -112,17 +112,17 @@
                 }
 
                 .footer {
-                    @apply mt-8 flex-row;
+                    @apply mt-6 flex-row;
 
                     .title {
-                        @apply text-3xl;
+                        @apply text-lg;
                     }
 
                     .tag-list{
                         @apply flex-row flex-1 list-reset;
 
                         li {
-                            @apply bg-grey-lighter rounded-full px-4 border-none py-0 mr-4 flex flex-col justify-center items-center;
+                            @apply text-lg bg-grey-lighter rounded-full px-4 border-none py-1 mr-4 flex flex-col justify-center items-center;
 
                             &.episode {
                                 span {
@@ -143,7 +143,7 @@
                     &.duration {
                         @apply whitespace-no-wrap;
                     }
-                    @apply text-black text-3xl;
+                    @apply text-black text-lg;
                 }
             }
         }

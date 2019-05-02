@@ -1,21 +1,60 @@
 <template>
     <section class="episode-detail" v-if="episode">
-        <h1 class="title" v-text="episode.getTitle()"></h1>
-        <h2 v-text="episode.getAbstract()"></h2>
-        <p v-html="episode.getDescription()"></p>
+        <nav>
+            <ul>
+                <li>
+                    <router-link :to="homepageLink">
+                        <font-awesome-icon class="mr-4" icon="home"></font-awesome-icon>
+                        Home
+                    </router-link>
+                </li>
+                <li>
+                    <font-awesome-icon class="mr-4" icon="podcast"></font-awesome-icon>
+                    <span v-text="episode.getTitle()"></span>
+                </li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1 class="title" v-text="episode.getTitle()"></h1>
+            <h2 class="subtitle" v-text="episode.getAbstract()"></h2>
+            <div class="content-wrapper flex flex-col-reverse lg:flex-row mt-16">
+                <div class="description w-full lg:w-1/3">
+                    <p v-html="episode.getDescription()"></p>
+                </div>
+                <div class="player-container flex-1 rounded lg:ml-4 mb-4 lg:mb-0">
+                    <episode-player :episode="episode"></episode-player>
+                </div>
+            </div>
+        </article>
     </section>
 </template>
 
 <script>
 
+    import Constants from "../Constants";
+    import EpisodePlayer from "./EpisodePlayer";
     import EpisodeAccessor from "../mixins/EpisodeAccessor";
+    import { faHome, faPodcast } from '@fortawesome/free-solid-svg-icons';
+    import { library } from '@fortawesome/fontawesome-svg-core';
 
     export default {
         name: "Episode",
         mixins: [EpisodeAccessor],
+        components: {EpisodePlayer},
+
+        created() {
+            library.add(faHome, faPodcast);
+        },
 
         mounted() {
             this.init(this.$route.params.slug);
+        },
+
+        computed: {
+            homepageLink() {
+                return { name: Constants.ROUTE_HOMEPAGE };
+            }
         }
     }
 </script>
@@ -23,9 +62,66 @@
 <style lang="scss" scoped>
 
     .episode-detail {
-        @apply w-full z-10 flex flex-col justify-between pb-12;
+        @apply w-full z-10 flex flex-col justify-start pb-12;
         min-height: 100%;
         background: linear-gradient(to right, config("colors.blue-dark"), config("colors.indigo-light"));
+
+        nav {
+            @apply w-full border-b border-white;
+            background: linear-gradient(to right, config("colors.blue-dark"), config("colors.indigo"));
+
+            ul {
+                @apply list-reset flex flex-row justify-start p-4;
+
+                li {
+
+                    @apply text-xl text-white flex flex-row justify-start items-center;
+
+                    &::after {
+                        @apply block mx-4;
+                        content:">"
+                    }
+
+                    &:last-child::after {
+                        content: "";
+                    }
+
+                    a {
+                        @apply text-xl text-white no-underline;
+                    }
+                }
+            }
+        }
+
+        article {
+            @apply px-32 mt-8;
+
+            h1 {
+                font-size: 5rem;
+                letter-spacing: 0.3rem;
+            }
+
+            h2 {
+                @apply text-3xl text-white;
+            }
+
+            .content-wrapper {
+                .description {
+                    @apply border border-white p-4 rounded text-white;
+                    background-color: rgba(0,0,0, 0.0625);
+                    max-height: 300px;
+                    overflow: auto;
+
+                    > p > a {
+                        text-decoration: underline!important;
+                        color:#FFF !important;
+                        font-weight: bold;
+                    }
+
+                }
+            }
+
+        }
     }
 
 </style>

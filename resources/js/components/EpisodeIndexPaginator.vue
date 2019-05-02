@@ -81,17 +81,17 @@
         @apply my-8;
 
         ul {
-            @apply list-reset flex flex-row w-full rounded text-5xl justify-center;
+            @apply list-reset flex flex-row w-full rounded text-2xl justify-center;
 
             li {
-                @apply w-16 h-16 flex justify-center items-center p-2;
+                @apply w-8 h-8 flex justify-center items-center p-2;
                 box-sizing: content-box;
 
                 button {
                     @apply outline-none;
 
                     a {
-                        @apply text-blue-darkest;
+                        @apply text-blue-darkest no-underline mt-1 block;
                     }
                 }
 

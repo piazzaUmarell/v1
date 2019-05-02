@@ -4,6 +4,7 @@ require('laravel-mix-tailwind');
 mix
     .js('resources/js/app.js', 'public/static/')
     .sass('resources/scss/app.scss', 'public/static/')
+    .copy('resources/images/**/*', 'public/static/images')
     .webpackConfig({
         module: {
             rules: [

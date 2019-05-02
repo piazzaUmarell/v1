@@ -27,24 +27,24 @@
 
         .content {
             .main {
-                @apply text-center pt-16;
+                @apply text-center pt-8;
 
                 h1 {
-                    font-size: 9rem;
+                    font-size: 5rem;
                     letter-spacing: 0.3rem;
                 }
 
                 h2 {
-                    font-size: 6.5rem;
+                    font-size: 3.5rem;
                     margin-bottom: 1rem;
                 }
 
                 p {
-                    font-size: 2.5rem;
+                    font-size: 1.75rem;
                 }
             }
             .latest-episode-player {
-                @apply mt-24 mx-auto;
+                @apply mt-8 mx-auto;
             }
         }
 
