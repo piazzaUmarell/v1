@@ -25,10 +25,15 @@ html, body, #app, main {
 
 .aplayer .aplayer-body .aplayer-info .aplayer-music {
     @apply flex flex-col;
+
     > * {
-      @apply mb-1;
+        @apply mb-1;
     }
-  }
+}
+
+.episode-detail article .content-wrapper .description a, a:active, a:hover {
+    @apply text-white font-bold no-underline;
+}
 
 @tailwind utilities;
 

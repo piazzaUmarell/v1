@@ -1,5 +1,6 @@
-import Constants from "../Constants";
 import Tag from "./Tag";
+import Constants from "../Constants";
+import moment = require("moment");
 
 export default class Episode {
 
@@ -151,8 +152,8 @@ export default class Episode {
         }
     }
 
-    public getPublicationDateForHumans() {
-        return this.publication_date.toLocaleString()
+    public getPublicationDateForHumans(format = "DD/MM/YYYY") {
+        return moment(this.publication_date).format(format);
     }
 
     public getCategories() : Tag[] {

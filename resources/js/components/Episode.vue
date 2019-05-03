@@ -16,6 +16,11 @@
         </nav>
 
         <article>
+            <header class="episode-information">
+                <span v-text="'Episodio: ' + episode.getNumber()"></span>
+                <span v-text="'Durata: ' + episode.getDuration()"></span>
+                <span v-text="'Data di uscita: ' + episode.getPublicationDateForHumans()"></span>
+            </header>
             <h1 class="title" v-text="episode.getTitle()"></h1>
             <h2 class="subtitle" v-text="episode.getAbstract()"></h2>
             <div class="content-wrapper flex flex-col-reverse lg:flex-row mt-16">
@@ -24,6 +29,16 @@
                 </div>
                 <div class="player-container flex-1 rounded lg:ml-4 mb-4 lg:mb-0">
                     <episode-player :episode="episode"></episode-player>
+                    <div class="flex flex-row mt-4 items-baseline"
+                         style="margin-left: 5px; margin-right: 5px;"
+                    >
+                        <div class="mr-4 text-white uppercase font-bold">Argomenti: </div>
+                        <episode-tag-index
+                                :episode="episode"
+                                :display-episode-number="false"
+                        ></episode-tag-index>
+                    </div>
+
                 </div>
             </div>
         </article>
@@ -37,11 +52,12 @@
     import EpisodeAccessor from "../mixins/EpisodeAccessor";
     import { faHome, faPodcast } from '@fortawesome/free-solid-svg-icons';
     import { library } from '@fortawesome/fontawesome-svg-core';
+    import EpisodeTagIndex from "./EpisodeTagIndex";
 
     export default {
         name: "Episode",
         mixins: [EpisodeAccessor],
-        components: {EpisodePlayer},
+        components: {EpisodeTagIndex, EpisodePlayer},
 
         created() {
             library.add(faHome, faPodcast);
@@ -96,6 +112,14 @@
         article {
             @apply px-32 mt-8;
 
+            .episode-information {
+                @apply uppercase text-grey-light font-bold text-xl leading-loose flex flex-row justify-start;
+
+                > * {
+                    @apply mr-6;
+                }
+            }
+
             h1 {
                 font-size: 5rem;
                 letter-spacing: 0.3rem;
@@ -112,10 +136,8 @@
                     max-height: 300px;
                     overflow: auto;
 
-                    > p > a {
-                        text-decoration: underline!important;
-                        color:#FFF !important;
-                        font-weight: bold;
+                    a, a:active, a:hover {
+                        @apply text-white font-bold;
                     }
 
                 }

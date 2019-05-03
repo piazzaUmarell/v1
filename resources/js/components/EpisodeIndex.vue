@@ -21,14 +21,9 @@
                         </section>
                         <span class="content" v-text="episode.abstract"></span>
                         <section class="footer">
-                            <ul class="tag-list lg:flex">
-                                <li class="tag episode mb-2 lg:mb-0">
-                                    <span class="title text-blue-darkest" v-text="'Episodio #' + episode.number"></span>
-                                </li>
-                                <li class="tag mb-2 lg:mb-0" v-for="tag in episode.tags">
-                                    <span class="title text-blue-darkest" v-text="tag.name"></span>
-                                </li>
-                            </ul>
+                            <episode-tag-index
+                                :episode="episode"
+                            ></episode-tag-index>
                             <span class="content italic block w-full text-center lg:text-right mt-4 lg:mt-4" v-text="episode.getPublicationDateForHumans()"></span>
                         </section>
                     </div>
@@ -47,12 +42,14 @@
 
     import { faPlay, faClock } from '@fortawesome/free-solid-svg-icons'
     import { library } from '@fortawesome/fontawesome-svg-core';
+    import EpisodeTagIndex from "./EpisodeTagIndex";
 
     export default {
         name: "EpisodeIndex",
         mixins: [EpisodeAccessor],
 
         components: {
+            EpisodeTagIndex,
             EpisodeIndexFilter,
             EpisodeIndexPaginator
         },
@@ -116,26 +113,6 @@
 
                     .title {
                         @apply text-lg;
-                    }
-
-                    .tag-list{
-                        @apply flex-row flex-1 list-reset;
-
-                        li {
-                            @apply text-lg bg-grey-lighter rounded-full px-4 border-none py-1 mr-4 flex flex-col justify-center items-center;
-
-                            &.episode {
-                                span {
-                                    @apply text-white;
-                                }
-                                background: linear-gradient(to right, config("colors.blue-dark"), config("colors.indigo-light"));
-                            }
-
-                            span{
-                                @apply my-0;
-                            }
-                        }
-
                     }
                 }
 
