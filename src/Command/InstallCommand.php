@@ -48,6 +48,15 @@ class InstallCommand extends Command
     {
         $this->runMigrations($output);
         $this->importFromSource($input->getArgument("source"), $output);
+        $this->createAdminUsers($output);
+    }
+    
+    protected function createAdminUsers(OutputInterface $output) {
+        return $this->runCommand(
+            'piazza-umarell:admin:registration',
+            [],
+            $output
+        );
     }
     
     /**

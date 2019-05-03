@@ -16,23 +16,23 @@
         </nav>
 
         <article>
-            <header class="episode-information">
+            <h1 class="title" v-text="episode.getTitle()"></h1>
+            <header class="episode-information flex flex-col lg:flex-row mb-4 lg:mb-0 justify-start">
                 <span v-text="'Episodio: ' + episode.getNumber()"></span>
                 <span v-text="'Durata: ' + episode.getDuration()"></span>
                 <span v-text="'Data di uscita: ' + episode.getPublicationDateForHumans()"></span>
             </header>
-            <h1 class="title" v-text="episode.getTitle()"></h1>
             <h2 class="subtitle" v-text="episode.getAbstract()"></h2>
-            <div class="content-wrapper flex flex-col-reverse lg:flex-row mt-16">
-                <div class="description w-full lg:w-1/3">
+            <div class="content-wrapper flex flex-col-reverse xl:flex-row mt-16">
+                <div class="description w-full xl:w-1/3">
                     <p v-html="episode.getDescription()"></p>
                 </div>
-                <div class="player-container flex-1 rounded lg:ml-4 mb-4 lg:mb-0">
+                <div class="player-container flex-1 rounded xl:ml-4 mb-4 xl:mb-0">
                     <episode-player :episode="episode"></episode-player>
                     <div class="flex flex-row mt-4 items-baseline"
                          style="margin-left: 5px; margin-right: 5px;"
                     >
-                        <div class="mr-4 text-white uppercase font-bold">Argomenti: </div>
+                        <div class="mr-4 text-white hidden lg:block uppercase font-bold">Argomenti: </div>
                         <episode-tag-index
                                 :episode="episode"
                                 :display-episode-number="false"
@@ -113,7 +113,7 @@
             @apply px-32 mt-8;
 
             .episode-information {
-                @apply uppercase text-grey-light font-bold text-xl leading-loose flex flex-row justify-start;
+                @apply uppercase text-grey-light font-bold text-xl leading-loose;
 
                 > * {
                     @apply mr-6;
