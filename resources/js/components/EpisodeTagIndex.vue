@@ -13,17 +13,24 @@
 </template>
 
 <script>
+    import Episode from "../model/Episode";
+
     export default {
         name: "EpisodeTagIndex",
-        props:["episode","displayEpisodeNumber"],
+        props:{
+            episode: {
+                type: Episode,
+                required: true
+            },
+            displayEpisodeNumber: {
+                type: Boolean,
+                default: true
+            }
+        },
 
         computed: {
             episodeNumberVisible() {
-                console.log(this.$props.displayEpisodeNumber);
-                if(this.$props.hasOwnProperty('displayEpisodeNumber')) {
-                    return this.$props.displayEpisodeNumber;
-                }
-                return true;
+                return this.$props.displayEpisodeNumber;
             }
         }
     }

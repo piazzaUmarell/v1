@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dfccf0003fab3c11c14f9aa079b274f",
+    "content-hash": "888c1805b3a8fd864cf65fb3f8804e6b",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1194,6 +1194,59 @@
                 "reflection"
             ],
             "time": "2018-06-14T14:45:07+00:00"
+        },
+        {
+            "name": "gesdinet/jwt-refresh-token-bundle",
+            "version": "v0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gesdinet/JWTRefreshTokenBundle.git",
+                "reference": "9b9a9f8cf5fdc48dacb012929dc01cdf05b6badf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gesdinet/JWTRefreshTokenBundle/zipball/9b9a9f8cf5fdc48dacb012929dc01cdf05b6badf",
+                "reference": "9b9a9f8cf5fdc48dacb012929dc01cdf05b6badf",
+                "shasum": ""
+            },
+            "require": {
+                "lexik/jwt-authentication-bundle": "^1.1|^2.0@dev",
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/framework-bundle": "~3.4|~4.0",
+                "symfony/validator": "~3.4|~4.0"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/mongodb-odm-bundle": "^3.4",
+                "doctrine/orm": "^2.4.8",
+                "phpspec/phpspec": "^3.0|^4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gesdinet\\JWTRefreshTokenBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos Gómez Vilches",
+                    "email": "marcos@gesdinet.com"
+                }
+            ],
+            "description": "Implements a refresh token system over Json Web Tokens in Symfony",
+            "keywords": [
+                "jwt refresh token bundle symfony json web"
+            ],
+            "time": "2019-04-04T10:06:48+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -4255,6 +4308,95 @@
             "description": "Symfony TwigBundle",
             "homepage": "https://symfony.com",
             "time": "2019-03-04T11:47:55+00:00"
+        },
+        {
+            "name": "symfony/validator",
+            "version": "v4.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/validator.git",
+                "reference": "0d83ae4c4c5418522f05a25e4597719043b45f40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/0d83ae4c4c5418522f05a25e4597719043b45f40",
+                "reference": "0d83ae4c4c5418522f05a25e4597719043b45f40",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3",
+                "symfony/contracts": "^1.0.2",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
+                "symfony/dependency-injection": "<3.4",
+                "symfony/http-kernel": "<3.4",
+                "symfony/intl": "<4.1",
+                "symfony/translation": "<4.2",
+                "symfony/yaml": "<3.4"
+            },
+            "require-dev": {
+                "doctrine/annotations": "~1.0",
+                "doctrine/cache": "~1.0",
+                "egulias/email-validator": "^1.2.8|~2.0",
+                "symfony/cache": "~3.4|~4.0",
+                "symfony/config": "~3.4|~4.0",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/expression-language": "~3.4|~4.0",
+                "symfony/http-foundation": "~4.1",
+                "symfony/http-kernel": "~3.4|~4.0",
+                "symfony/intl": "~4.1",
+                "symfony/property-access": "~3.4|~4.0",
+                "symfony/translation": "~4.2",
+                "symfony/var-dumper": "~3.4|~4.0",
+                "symfony/yaml": "~3.4|~4.0"
+            },
+            "suggest": {
+                "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
+                "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
+                "egulias/email-validator": "Strict (RFC compliant) email validation",
+                "psr/cache-implementation": "For using the metadata cache.",
+                "symfony/config": "",
+                "symfony/expression-language": "For using the Expression validator",
+                "symfony/http-foundation": "",
+                "symfony/intl": "",
+                "symfony/property-access": "For accessing properties within comparison constraints",
+                "symfony/translation": "For translating validation errors.",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Validator\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Validator Component",
+            "homepage": "https://symfony.com",
+            "time": "2019-05-01T05:55:04+00:00"
         },
         {
             "name": "symfony/var-exporter",

@@ -41,6 +41,7 @@
     "axios": "^0.18.0",
     "es6-promise": "^4.2.6",
     "hls": "0.0.1",
+    "jwt-decode": "github:auth0/jwt-decode",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "ts-loader": "^5.3.3",

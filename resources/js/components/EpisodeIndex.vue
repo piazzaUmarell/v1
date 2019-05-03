@@ -1,5 +1,6 @@
 <template>
     <section class="episode-index w-full">
+
         <h1 class="title">Episodi</h1>
         <episode-index-filter></episode-index-filter>
 
@@ -23,6 +24,7 @@
                         <section class="footer">
                             <episode-tag-index
                                 :episode="episode"
+
                             ></episode-tag-index>
                             <span class="content italic block w-full text-center lg:text-right mt-4 lg:mt-4" v-text="episode.getPublicationDateForHumans()"></span>
                         </section>

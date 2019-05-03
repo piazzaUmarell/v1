@@ -78,6 +78,9 @@
     "doctrine/reflection": {
         "version": "v1.0.0"
     },
+    "gesdinet/jwt-refresh-token-bundle": {
+        "version": "v0.6.2"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
@@ -321,6 +324,19 @@
             "config/packages/twig.yaml",
             "config/routes/dev/twig.yaml",
             "templates/base.html.twig"
+        ]
+    },
+    "symfony/validator": {
+        "version": "4.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.1",
+            "ref": "9a285e4ff3915c7cd086e9945f30591a926baf83"
+        },
+        "files": [
+            "config/packages/test/validator.yaml",
+            "config/packages/validator.yaml"
         ]
     },
     "symfony/var-exporter": {

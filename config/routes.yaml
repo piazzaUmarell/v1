@@ -2,5 +2,15 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
-admin_api_login_check:
-    path: /admin/api/login_check
+admin_api_login:
+    path: /admin/api/login
+
+gesdinet_jwt_refresh_token:
+    path:       /api/token/refresh
+    controller: gesdinet.jwtrefreshtoken::refresh
+
+default:
+    path: /{req}
+    controller: App\Controller\PagesController::homepage
+    requirements:
+        req: "^(?!api).+"

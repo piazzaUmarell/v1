@@ -37,7 +37,9 @@ class FrontendRoutesProvider
         return DotNotationCollection::explode([
             "episodes.index" => $this->_urlGenerator->generate(API_ROUTE_EPISODE_INDEX),
             "episodes.show" => urldecode($this->_urlGenerator->generate(API_ROUTE_EPISODE_SHOW, ["episode_id" => "{episode_id}" ])),
-            "latest-episode.show" => $this->_urlGenerator->generate(API_ROUTE_LATEST_EPISODE_SHOW)
+            "latest-episode.show" => $this->_urlGenerator->generate(API_ROUTE_LATEST_EPISODE_SHOW),
+            "admin.login" => $this->_urlGenerator->generate(API_ADMIN_BACK_OFFICE_LOGIN),
+            "admin.refresh" => $this->_urlGenerator->generate(API_ADMIN_BACK_OFFICE_REFRESH),
         ]);
     }
 }
